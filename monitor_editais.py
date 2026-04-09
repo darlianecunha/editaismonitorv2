@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Monitor de Editais - Cooperacao Brasil-Alemanha
+Monitor de Editais - Alemanha e Holanda
 Sustentabilidade, Maritime AI, Decarbonizacao e Mudancas Climaticas
 
 Gera JSON para pagina web hospedada na Vercel.
@@ -8,42 +8,22 @@ Roda via GitHub Actions (cron diario) ou manualmente.
 """
 
 import os
-import re
 import json
 import datetime
 from pathlib import Path
 from urllib.parse import quote_plus
+import re
 import feedparser
-
-# Padroes de titulos genericos/invalidos que devem ser filtrados
-# Ex: "Search - www.daad.de", "Suche - www.dfg.de", "Zoeken - www.nwo.nl"
-INVALID_TITLE_PATTERNS = [
-    re.compile(r'^Search\s*[-–—]\s*', re.IGNORECASE),
-    re.compile(r'^Suche\s*[-–—]\s*', re.IGNORECASE),
-    re.compile(r'^Busca\s*[-–—]\s*', re.IGNORECASE),
-    re.compile(r'^Pesquisa\s*[-–—]\s*', re.IGNORECASE),
-    re.compile(r'^www\.\w+\.\w+', re.IGNORECASE),
-    re.compile(r'^\S+\.\w{2,3}$', re.IGNORECASE),  # titulos que sao apenas um dominio
-]
-
-
-def is_valid_title(title):
-    """Verifica se o titulo e valido (nao e generico de pagina de busca)."""
-    if not title or len(title.strip()) < 10:
-        return False
-    for pattern in INVALID_TITLE_PATTERNS:
-        if pattern.search(title.strip()):
-            return False
-    return True
 
 # ===== Parametros =====
 DAYS = int(os.getenv("DAYS_INT", "14"))
 MAX_PER_TERM = int(os.getenv("MAX_PER_TERM_INT", "8"))
-OUTPUT_DIR = os.getenv("OUTPUT_DIR", os.path.join(os.path.dirname(__file__), "..", "public", "data"))
+OUTPUT_DIR = os.getenv("OUTPUT_DIR", os.path.join(os.path.dirname(__file__), "data"))
 
 LANG_COUNTRY_PAIRS = [
     ("en", "US"),
     ("de", "DE"),
+    ("nl", "NL"),
     ("pt", "BR"),
 ]
 
@@ -101,23 +81,48 @@ SEARCH_CATEGORIES = {
             'site:umweltbundesamt.de Nachhaltigkeit Forschungsprojekt',
         ],
     },
+    "NWO_NL": {
+        "icon": "🇳🇱",
+        "label": "NWO (Holanda)",
+        "terms": [
+            'site:nwo.nl "climate change" research',
+            'site:nwo.nl "sustainability" research grant',
+            'site:nwo.nl "maritime" OR "shipping" research',
+            'site:nwo.nl "artificial intelligence" sustainability',
+            'site:nwo.nl "sustainable development" call',
+        ],
+    },
+    "EUR_Leiden_NL": {
+        "icon": "🇳🇱",
+        "label": "Erasmus & Leiden (Holanda)",
+        "terms": [
+            'site:eur.nl "sustainability" research position',
+            'site:eur.nl "maritime" OR "port" OR "shipping"',
+            'site:eur.nl "postdoctoral" sustainability',
+            'site:universiteitleiden.nl "climate change" research',
+            'site:universiteitleiden.nl "sustainability" researcher',
+            'site:tudelft.nl "maritime" OR "shipping" research',
+            'site:tudelft.nl "decarbonisation" OR "decarbonization"',
+        ],
+    },
     "ThinkTanks": {
         "icon": "🏛️",
         "label": "Think Tanks & Organizacoes",
         "terms": [
+            'site:cedelft.eu "maritime" OR "shipping"',
+            'site:cedelft.eu "decarbonisation" OR "sustainability"',
+            'site:tno.nl "maritime" OR "shipping" sustainability',
             'site:emsa.europa.eu "sustainability" OR "emissions"',
             'site:itf-oecd.org "maritime" OR "shipping" OR "port"',
-            'site:fraunhofer.de "maritime" OR "shipping" sustainability',
-            'site:fraunhofer.de "decarbonisation" OR "decarbonization"',
-            '"Fraunhofer" maritime sustainability research',
-            '"Helmholtz" climate change research Germany',
+            '"CE Delft" maritime decarbonisation researcher',
+            '"TNO" maritime sustainability research vacancy',
         ],
     },
     "Maritime_AI": {
         "icon": "🚢",
         "label": "Maritime AI & Decarbonizacao",
         "terms": [
-            'Germany "maritime decarbonisation" research',
+            'Germany Netherlands "maritime decarbonisation" research',
             'Europe "shipping emissions" research funding',
             'Europe "port sustainability" research grant',
             '"maritime AI" research position Europe',
@@ -136,21 +141,75 @@ SEARCH_CATEGORIES = {
             'Deutschland Nachhaltigkeit Forschungsfoerderung',
         ],
     },
+    "Geral_NL": {
+        "icon": "🔍",
+        "label": "Geral Holanda",
+        "terms": [
+            'Netherlands "climate change" research funding',
+            'Netherlands "sustainability" research grant',
+            'Netherlands "postdoctoral" sustainability fellowship',
+            'Nederland duurzaamheid onderzoek subsidie',
+        ],
+    },
     "BR_Coop": {
         "icon": "🇧🇷",
-        "label": "Cooperacao Brasil-Alemanha",
+        "label": "Cooperacao Brasil",
         "terms": [
             'Brazil Germany "climate change" research programme',
             'Brazil Germany sustainability research call',
             'Brasil Alemanha "mudancas climaticas" cooperacao cientifica',
+            'Brazil Netherlands sustainability research cooperation',
+            'Brasil Holanda pesquisa sustentabilidade',
             'Alemanha "transicao energetica" oportunidades de pesquisa',
-            'CAPES DAAD cooperation research',
-            'CNPq Germany bilateral research',
-            'FAPESP Germany research cooperation',
-            'Brasil Alemanha cooperacao cientifica edital',
         ],
     },
 }
+
+# Publico-alvo por categoria (usado na aba Resumo)
+TARGET_AUDIENCE = {
+    "DAAD": "Pesquisadores internacionais, pos-doutorandos, professores visitantes",
+    "DFG": "Pesquisadores com doutorado, grupos de pesquisa em universidades alemas",
+    "Humboldt": "Pesquisadores experientes com doutorado (ate 12 anos), todas as areas",
+    "BMBF_UBA": "Instituicoes de pesquisa, consorcio universidade-industria, pesquisadores seniors",
+    "NWO_NL": "Pesquisadores em instituicoes holandesas, colaboracoes internacionais",
+    "EUR_Leiden_NL": "Pos-doutorandos, pesquisadores visitantes, candidatos a posicoes academicas",
+    "ThinkTanks": "Pesquisadores aplicados, consultores, analistas de politicas publicas",
+    "Maritime_AI": "Pesquisadores em IA, engenharia maritima, sustentabilidade portuaria",
+    "Geral_DE": "Pesquisadores internacionais com interesse em colaboracao com Alemanha",
+    "Geral_NL": "Pesquisadores internacionais com interesse em colaboracao com Holanda",
+    "BR_Coop": "Pesquisadores brasileiros, programas de cooperacao bilateral",
+}
+
+
+# Titulos genericos que devem ser filtrados (paginas de busca, nao editais reais)
+TITLE_BLACKLIST_PATTERNS = [
+    r"^search\s*[-–]\s*www\.",        # "Search - www.daad.de"
+    r"^suche\s*[-–]\s*www\.",          # "Suche - www.daad.de" (alemao)
+    r"^zoeken\s*[-–]\s*www\.",         # "Zoeken - www..." (holandes)
+    r"^results?\s*[-–]\s*www\.",       # "Results - www..."
+    r"^search results?\s",             # "Search results for..."
+    r"^suchergebnisse\s",              # "Suchergebnisse" (alemao)
+    r"^zoekresultaten\s",              # "Zoekresultaten" (holandes)
+    r"^page not found",                # paginas 404
+    r"^404\s",                         # paginas 404
+    r"^error\s",                       # paginas de erro
+    r"^login\s*[-–]",                  # paginas de login
+    r"^home\s*[-–]\s*www\.",           # "Home - www.site.com"
+    r"^startseite\s*[-–]",            # "Startseite - ..." (pagina inicial alemao)
+    r"^homepage\s*[-–]",               # "Homepage - ..."
+]
+TITLE_BLACKLIST_RE = re.compile("|".join(TITLE_BLACKLIST_PATTERNS), re.IGNORECASE)
+
+
+def is_generic_title(title):
+    """Verifica se o titulo e generico (pagina de busca, 404, etc)."""
+    if TITLE_BLACKLIST_RE.search(title):
+        return True
+    # Titulos muito curtos (menos de 15 chars) provavelmente nao sao uteis
+    clean = title.strip()
+    if len(clean) < 15:
+        return True
+    return False
 
 
 def buscar_multilingue(categorias, pairs, dias, max_per_termo):
@@ -191,8 +250,8 @@ def buscar_multilingue(categorias, pairs, dias, max_per_termo):
                     if not title or not link:
                         continue
 
-                    # Filtrar titulos genericos (ex: "Search - www.daad.de")
-                    if not is_valid_title(title):
+                    # Filtrar titulos genericos (paginas de busca, 404, etc)
+                    if is_generic_title(title):
                         continue
 
                     key_link = link.lower()
@@ -203,10 +262,28 @@ def buscar_multilingue(categorias, pairs, dias, max_per_termo):
                     vistos_link.add(key_link)
                     vistos_titulo.add(key_title)
 
+                    # Capturar descricao/resumo do RSS
+                    summary = ""
+                    for field in ("summary", "description", "subtitle"):
+                        raw = (getattr(e, field, "") or "").strip()
+                        if raw:
+                            clean = re.sub(r"<[^>]+>", " ", raw).strip()
+                            clean = re.sub(r"\s+", " ", clean)
+                            if len(clean) > 20:
+                                summary = clean[:300]
+                                break
+
+                    # Extrair fonte (ex: "Title - Source Name")
+                    source = ""
+                    if " - " in title:
+                        source = title.rsplit(" - ", 1)[-1].strip()
+
                     itens.append({
                         "date": d.strftime("%Y-%m-%d"),
                         "title": title,
                         "link": link,
+                        "summary": summary,
+                        "source": source,
                         "lang": f"{lang.upper()}-{country.upper()}",
                         "search_term": termo,
                     })
@@ -226,6 +303,7 @@ def buscar_multilingue(categorias, pairs, dias, max_per_termo):
         resultados[cat_id] = {
             "icon": cat_info["icon"],
             "label": cat_info["label"],
+            "target_audience": TARGET_AUDIENCE.get(cat_id, ""),
             "total": len(unique),
             "items": sorted(unique, key=lambda x: x["date"], reverse=True),
         }
@@ -291,7 +369,7 @@ def generate_summary(resultados):
     cats_with_results = sum(1 for cat in resultados.values() if cat["total"] > 0)
     cats_empty = sum(1 for cat in resultados.values() if cat["total"] == 0)
 
-    by_country = {"DE": 0, "BR": 0, "US": 0, "other": 0}
+    by_country = {"DE": 0, "NL": 0, "BR": 0, "US": 0, "other": 0}
     by_lang = {}
     recent_dates = []
 
@@ -319,7 +397,7 @@ def generate_summary(resultados):
     }
 
 
-def build_json(resultados, _unused, summary, dias):
+def build_json(resultados, cv_scores, summary, dias):
     """Constroi o JSON final."""
     return {
         "metadata": {
@@ -329,6 +407,7 @@ def build_json(resultados, _unused, summary, dias):
         },
         "summary": summary,
         "categories": resultados,
+        "cv_matches": cv_scores[:50],  # top 50
     }
 
 
@@ -343,6 +422,11 @@ def save_json(data, output_dir):
 
 
 def main():
+    # Carregar perfil CV
+    cv_path = os.path.join(os.path.dirname(__file__), "cv_profile.json")
+    with open(cv_path, "r", encoding="utf-8") as f:
+        cv_profile = json.load(f)
+
     print(f"Buscando editais dos ultimos {DAYS} dias...")
     print(f"Categorias: {len(SEARCH_CATEGORIES)}")
     total_terms = sum(len(c["terms"]) for c in SEARCH_CATEGORIES.values())
@@ -351,11 +435,14 @@ def main():
     # Buscar
     resultados = buscar_multilingue(SEARCH_CATEGORIES, LANG_COUNTRY_PAIRS, DAYS, MAX_PER_TERM)
 
+    # CV matching
+    cv_scores = compute_cv_scores(resultados, cv_profile)
+
     # Resumo
     summary = generate_summary(resultados)
 
     # Montar JSON
-    data = build_json(resultados, None, summary, DAYS)
+    data = build_json(resultados, cv_scores, summary, DAYS)
 
     # Salvar JSON
     save_json(data, OUTPUT_DIR)
