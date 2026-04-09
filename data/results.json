@@ -1,21 +1,21 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T02:35:16Z",
+    "generated_at": "2026-04-09T08:22:45Z",
     "period_days": 14,
     "version": "2.0"
   },
   "summary": {
-    "total_results": 44,
+    "total_results": 45,
     "categories_with_results": 7,
     "categories_empty": 1,
     "by_country": {
-      "DE": 40,
+      "DE": 41,
       "BR": 4,
       "other": 0
     },
     "by_language": {
-      "DE-DE": 13,
-      "EN-DE": 27,
+      "DE-DE": 12,
+      "EN-DE": 29,
       "PT-BR": 4
     },
     "date_range": {
@@ -27,7 +27,7 @@
     "DAAD": {
       "icon": "🇩🇪",
       "label": "DAAD (Alemanha)",
-      "total": 14,
+      "total": 13,
       "items": [
         {
           "date": "2026-04-07",
@@ -102,7 +102,7 @@
         {
           "date": "2026-04-01",
           "title": "Centre for Responsible AI - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fMGREQnRiWFZ6b1ZoUW9Id0laMGRHRW85enQ5aUk1UUdZQXU3X3NTVDBqVXYxbmtobUthUXk5Q2lvVDJqb2NZSElqZTZFQXc4dVNuemRuY2VseWd1aGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZ1MyUFVtdXdhV3FmZkJYTVZBRUE4YmFhdmJCWDdYMHVUdzlBSmVMcEl4UTZCcWo3cmVybEl5ejNfTmloQ3hXWE5Tems4bjA1VkhkSWxmVGdIaV9wejFsUnFfTFpHYmtHbGV2b243SWg4V2pKSVJ3T3l5akRDSEo4TXh4MkZHU2x0THd2M1JNcV8ydnZCSzlrRTBXbVdXaWQ1aE0wZ2FPcWc3aXkzdmExcDhMNWZ0OUNRc2JSaDR3TjlmaUVueEczRWc4NFM3WUtINGJsS2xTN2FQTTg?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
         },
@@ -112,13 +112,6 @@
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcnBWdDhTZmg1RXRvTU50djBKT0RNUHJSQkZ4VVJBQXh3alp5azJ4RlNvdDBSSXQ2djdIQlpUSklpcUd3dlR3eHQ4ZWx1cG56T3hkNUhkcVR4NUU1c3hEWDBMV1paSElPTUZGMWtSMm9nUmVJSG1vUXZPcEp6SEFKNV9vMkFaWFJkNXlRSWI0RHNmanB3aXhLSEl4cW1YRXp1bnNLVWNZS1VDSWpCYmpFLVptMGdnVVdtYVl5eUhuS2xEdVZLSDR5MWYzZl80U0k5clpvZWg5bi1Ga0lFZnhkem9CQUxWaXZObGoyYVZpNjA4dTg?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"sustainable development\" research"
-        },
-        {
-          "date": "2026-03-30",
-          "title": "Stärkung akademischer Kapazitäten für eine nachhaltige Nutzung landwirtschaftlicher Ressourcen in Westafrika (Pro-RUWA) - static.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZnVOdVg3SEwzTnNVdmJTRW5oQW5ZaDZadktvNGRXVHBVRi1nMklraDVWel9QY0dsR2FDTHpyNUlMWFZ1b2VVdEhSN0stUDFRcDRXdUNqa1BUbVhTbHRHTnFwRjNNWHZqdGp4N0l2YmJiaUlWdlNYNWYwRy12a3RYVjlCYTVTSUlVdTBXalhFOWVRNDQ5NVYxcnpGZ3F1UkFfcU93ZXVNTjV5VktyX0d4UEZORHlnTkdIdFVjU0N2LUl4QVcyMXoxc3dSMXJmUUtPZXBhdU1rbUFPTms5VXhQRQ?oc=5",
-          "lang": "DE-DE",
-          "search_term": "site:daad.de Klimawandel Forschung"
         },
         {
           "date": "2026-03-28",
@@ -132,7 +125,7 @@
     "DFG": {
       "icon": "🇩🇪",
       "label": "DFG (Alemanha)",
-      "total": 8,
+      "total": 9,
       "items": [
         {
           "date": "2026-04-02",
@@ -189,6 +182,13 @@
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbkFyMEd5Y2ROU3ZMdDBVZE1rVERtVWZ4NUF2Rk9zRjBXTS1FYWJlX3U3b1RrVVNjNGdYejY5MGVZNFFMMUUxOHRIUlpVQjViZzBGM2NlaW40R0VqV0dQc3I2aEk4eE41QlVLM0dVdWZoMWxEcm13bklVamlTQ3poMg?oc=5",
           "lang": "EN-DE",
           "search_term": "site:dfg.de \"artificial intelligence\" sustainability"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Heinz Maier-Leibnitz Prizes 2026 - DFG - Deutsche Forschungsgemeinschaft",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYldGWjQ1M0ROLUZZWUV4UTJhelV2dmtodDFnRFdyNVJjdkx4Ry1HdURUZloyM2pLSlpaVWJtZ3hPNTYyNXBkY1R1VXJ5UExBYzVrc29GcHluUkxCX1VKSzNQbzY4c3psTnNud3lLcE1ka25xWHN2bTAzRzd3b01tWQ?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:dfg.de \"artificial intelligence\" sustainability"
         }
       ]
     },
@@ -215,7 +215,7 @@
     "ThinkTanks": {
       "icon": "🏛️",
       "label": "Think Tanks & Organizacoes",
-      "total": 8,
+      "total": 9,
       "items": [
         {
           "date": "2026-04-03",
@@ -249,6 +249,13 @@
           "date": "2026-04-01",
           "title": "Bioeconomy - Fraunhofer IGD",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNnp5eDRaSDQ5UU5QRWFlQTc2ZkFEWC1Sbm4xV3pGYnNERzZjdERRUV9kQ2V0SmVnYzBzeV8xNFRTdk9iUnFVc3BibGFoR2hBa0pYaUc2YWNFb1J1ak1BSWZqSUw1Q29tOFRNcjl6UEwwOHhlbG9VUjhDNFZCZ3JTOC1wQQ?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
+        },
+        {
+          "date": "2026-04-01",
+          "title": "Livestock - Fraunhofer IGD",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUTBOU0x6TTVNdm5zTm1Wa1hWVElMMmRBMFhleDFIQ05kYWlXTElWSmRRNWtwSVRlNm1UMWJsRlNwakhyYjVYR1BkWUE0YVlVdnV4LU9uQ0hvdjVJS0J0ZjgyejdOVFFxTVlnc1E0TEo5VFdNWDBBN3ozakQ5WFp6Umc1LVJJNkVRcURXdVdqUWI?oc=5",
           "lang": "EN-DE",
           "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
         },
@@ -292,7 +299,7 @@
     "Geral_DE": {
       "icon": "🔍",
       "label": "Geral Alemanha",
-      "total": 5,
+      "total": 4,
       "items": [
         {
           "date": "2026-04-07",
@@ -309,9 +316,9 @@
           "search_term": "Germany \"climate change\" research funding call"
         },
         {
-          "date": "2026-03-31",
-          "title": "70+ Environmental Funding Opportunities You Shouldn’t Miss - fundsforNGOs",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY2xjUmVlOW9WYlI2N2U5cDBOS2lFalQtTGxUcnZuaHVzZnhZWDRqY2FDcTVDQTlZbU11R2lRNm05UG1SWTJ0Wl9hVDVtc1Z0SWFGazlISmI2eFktNEpZVEU5dldoLW9TSmNaVDRzSmVseGttTC00ZldBLWY4TDJ0YUZ3YndaRUtQRFB5b3dob0FFak85QjlSY0RBc9IBoAFBVV95cUxOcndsa1hzWUsxUGpNTVQzX0ZmeXZ3X3FKM2FyNGNHUGVLOEk2cTluUWVYejBBM1kzWTYzeldOdkVEQVFXeXlOaWY1Wlo0ZkdTcWFMVEtENGtvdVA1MzdkS2t1d0ZjekVnSEdYcmM5SXlSanBWenE0V2FvNHlYeHB5bTRXNkROQmxZTldpOENveE5tV3BVcUUwYmYwaWlDNllI?oc=5",
+          "date": "2026-04-01",
+          "title": "CHINNOVA Call for Climate-Resilient Health Research - fundsforNGOs",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEdlWUVFeHg4OUpFUU01Q1hZdjNZUm9WeDl4bDkzdEkwSmE0RU9mTENXMW9GRURGUWwyNHUyQ3J1WC1jdjdtN2F4QUkzMWJxbGY0YUVnU2N6amdYWnpJNUtoeGZEREhrdzlBR1daZEVxbF9JbjUzRzItQWhkV3JocFMyS0o5MTZGZmIzX2h5M2V2TWN6ZU56StIBngFBVV95cUxNamViQ3g0WU1YS2pSdTBVazhldVJsN1J0NE5waGtUOHA2Q282Yl9LMWpINTNJMmN0bTdVVUlOQVpOYzJkVVdaYW5oeHA2VzB5b0prSndzZklWWmU5OHYwN0o3bGdEZDA3blgyWkdBYjdZUnZicHVxN3hPS0N5cDViTElFSlVFYXI4N19sUTJ4bG5GZVNhZ2JkenBaSGZVUQ?oc=5",
           "lang": "EN-DE",
           "search_term": "Germany \"climate change\" research funding call"
         },
@@ -321,20 +328,13 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOUhaeVl1WVY1andycTUzY2hBb1RVbUw1ZERoOEhQamViTUQtWjQ4VV9SNXdTZUNNOUtibmRIcnFKNVg0OGI3d1hqU0pRWEFVOFpwRmtRTzFuRnpnVnQ1TU1vQzk1bGdEMUNQNy1rVEFaWFV2b1d5RnpBQUpxYUp1WWIxRUdmZFpjd280WWNnVnpKS2NKQmZrYWlOZ0JCRXlfZ3BYTTF2X1E0djDSAbABQVVfeXFMUDhFUXRQMWNUX1E5c0EySHl4MURPYUU5OTZEeE1NeEY2WWF4N2NNYVRNaWY4Nm5rcFpnbHZpNjVhZG5YaEVEUzVSUTVzNGpxQjRzeWFJMUdPNktZeDhGekE2UHBwaFJ3ZlgyUkNiZWFQWkxsT2R0MXJ1S3B6SWNmbTdKT1d5djd5YVBIaHhmcWtqTTBlU3Vtdzc2Y1lpSldaRGJwN1h3VFY5bmZFZGhPRnQ?oc=5",
           "lang": "EN-DE",
           "search_term": "Germany \"climate change\" research funding call"
-        },
-        {
-          "date": "2026-03-29",
-          "title": "KLIMA Network Thuringia presents results in Berlin - uni-erfurt.de",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbEJ3RC1LQzhZSE1lbHpZTVBiaDliMVduVkczQ1pXNmU4Rnl3Tzkwc0dFenZWa0NxQ0k4WFhYbzE2SGRVNDdBWmFvS2Izb09KRVFWN2JtRUdNd1l0UXJya0c0WjYyZ3RzNzRfaUdkWTVCbm44LWJtZGVxcjNwcWpaeFJYNW5HTjlmWUpYOFEyN1BfVHVqRW9nVHA5OWpJTUVvbTE5LWFMdU1ueldaNWxCbFlIaVRYUQ?oc=5",
-          "lang": "EN-DE",
-          "search_term": "Germany \"sustainability\" research grant"
         }
       ]
     },
     "BR_Coop": {
       "icon": "🇧🇷",
       "label": "Cooperacao Brasil-Alemanha",
-      "total": 7,
+      "total": 8,
       "items": [
         {
           "date": "2026-04-08",
@@ -349,6 +349,13 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZQVQ4SE5BN2NSYkFBSTZQUDZkWnZyVXEwU1FtUlhFSjAzNUtKWDdUSTdhMGxmN1UtQ3FYOE50THhzU3JJMHF2eHhBQVlCLVdoUUh4c1lRVDZ2UWZsUlJWcVVJX1gxWk9ZcUQyd3BoaUZ2SVc3U3ZXZ1JyZjZBQTQ?oc=5",
           "lang": "PT-BR",
           "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
+          "date": "2026-04-05",
+          "title": "A Heated Debate: Climate Change and Conflict in Africa - GIGA Hamburg",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOWpwNmstdEhHRDdhN1JXMXJzT1VHZ3BwalVmV2hWV2tVMVQ5RDNZTUpWRjRKbWVOUUwxM1g1Y0dCbmpQVFgxOGZLOXdwTzVBakNJWlFxSGNHbnFZR1c4QjNwTE1JZGtCVm1mN0tkMTZ3Rk0wSjBlZG8tcDhSa0FOamg0d3lubGJFTVphQlBmV2ZNVGI4RjFmcjZvSFNvRWF2Mml1Q3p4eDk?oc=5",
+          "lang": "EN-DE",
+          "search_term": "Brazil Germany \"climate change\" research programme"
         },
         {
           "date": "2026-04-05",
