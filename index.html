@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitor de Editais - Cooperação Brasil-Alemanha</title>
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-light: #3b82f6;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --success: #059669;
+      --warning: #d97706;
+      --danger: #dc2626;
+      --score-high: #059669;
+      --score-med: #d97706;
+      --score-low: #94a3b8;
+      --de-flag: #ffcc00;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1e3a8a 100%);
+      color: white;
+      padding: 24px 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .header h1 { font-size: 22px; font-weight: 700; }
+    .header-meta {
+      display: flex; gap: 20px; margin-top: 8px;
+      font-size: 13px; opacity: 0.85; flex-wrap: wrap;
+    }
+    .header-meta span { display: flex; align-items: center; gap: 4px; }
+
+    /* Stats bar */
+    .stats-bar {
+      display: flex; gap: 16px; padding: 16px 32px;
+      background: white; border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .stat-card {
+      flex: 1; min-width: 140px;
+      padding: 12px 16px; border-radius: 8px;
+      border: 1px solid var(--border); text-align: center;
+    }
+    .stat-card .stat-value { font-size: 28px; font-weight: 700; color: var(--primary); }
+    .stat-card .stat-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Tabs */
+    .tabs {
+      display: flex; gap: 0; padding: 0 32px;
+      background: white; border-bottom: 2px solid var(--border);
+    }
+    .tab {
+      padding: 14px 24px; cursor: pointer;
+      font-size: 14px; font-weight: 600;
+      color: var(--text-muted); border-bottom: 3px solid transparent;
+      transition: all 0.2s; user-select: none;
+    }
+    .tab:hover { color: var(--primary-light); }
+    .tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+
+    /* Content */
+    .content { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* --- Tab 1: Resultados --- */
+    .category-block { margin-bottom: 24px; }
+    .cat-header {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 16px; border-radius: 8px 8px 0 0;
+      background: #f1f5f9; border: 1px solid var(--border); border-bottom: none;
+      font-weight: 700; font-size: 15px;
+    }
+    .cat-header .cat-count {
+      margin-left: auto; font-size: 12px; font-weight: 600;
+      background: var(--primary); color: white;
+      padding: 2px 10px; border-radius: 12px;
+    }
+    .cat-header .cat-count.empty { background: var(--text-muted); }
+
+    .results-table {
+      width: 100%; border-collapse: collapse;
+      border: 1px solid var(--border); border-radius: 0 0 8px 8px;
+      overflow: hidden;
+    }
+    .results-table th {
+      background: #f8fafc; text-align: left;
+      padding: 10px 14px; font-size: 12px;
+      text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--text-muted); border-bottom: 1px solid var(--border);
+    }
+    .results-table td {
+      padding: 10px 14px; border-bottom: 1px solid #f1f5f9;
+      font-size: 14px; vertical-align: top;
+    }
+    .results-table tr:hover { background: #f8fafc; }
+    .results-table a { color: var(--primary); text-decoration: none; }
+    .results-table a:hover { text-decoration: underline; }
+    .lang-pill {
+      display: inline-block; font-size: 11px; padding: 1px 8px;
+      border-radius: 10px; background: #e2e8f0; color: #475569;
+      margin-top: 4px;
+    }
+    .no-results {
+      padding: 16px; text-align: center; color: var(--text-muted);
+      border: 1px solid var(--border); border-top: none;
+      border-radius: 0 0 8px 8px; font-size: 14px;
+    }
+
+    /* Filters */
+    .filter-bar {
+      display: flex; gap: 12px; margin-bottom: 20px;
+      flex-wrap: wrap; align-items: center;
+    }
+    .filter-bar input, .filter-bar select {
+      padding: 8px 14px; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 14px; background: white;
+    }
+    .filter-bar input { flex: 1; min-width: 200px; }
+
+    /* --- Tab 2: Resumo --- */
+    .summary-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px; margin-bottom: 24px;
+    }
+    .summary-card {
+      background: white; border: 1px solid var(--border);
+      border-radius: 10px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .summary-card h3 {
+      font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--text-muted); margin-bottom: 12px;
+    }
+    .bar-chart { display: flex; flex-direction: column; gap: 8px; }
+    .bar-row { display: flex; align-items: center; gap: 10px; }
+    .bar-label { width: 120px; font-size: 13px; color: var(--text); flex-shrink: 0; }
+    .bar-track { flex: 1; height: 22px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 11px; color: white; font-weight: 600; min-width: 28px; }
+    .bar-fill.de { background: linear-gradient(90deg, #1e40af, #3b82f6); }
+    .bar-fill.br { background: linear-gradient(90deg, #047857, #10b981); }
+    .bar-fill.us { background: linear-gradient(90deg, #6d28d9, #8b5cf6); }
+    .bar-fill.other { background: #94a3b8; }
+
+    .timeline-list { list-style: none; }
+    .timeline-item {
+      display: flex; gap: 12px; padding: 8px 0;
+      border-bottom: 1px solid #f1f5f9; font-size: 13px;
+    }
+    .timeline-date { color: var(--primary); font-weight: 600; white-space: nowrap; }
+
+    /* Loading / Error */
+    .loading { text-align: center; padding: 60px; color: var(--text-muted); }
+    .loading-spinner {
+      width: 40px; height: 40px; border: 4px solid var(--border);
+      border-top-color: var(--primary); border-radius: 50%;
+      animation: spin 0.8s linear infinite; margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-msg { text-align: center; padding: 60px; color: var(--danger); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header, .stats-bar, .tabs, .content { padding-left: 16px; padding-right: 16px; }
+      .tab { padding: 12px 14px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Monitor de Editais - Cooperação Brasil-Alemanha</h1>
+  <div class="header-meta" id="headerMeta">
+    <span>Carregando...</span>
+  </div>
+</div>
+
+<div class="stats-bar" id="statsBar">
+  <div class="stat-card"><div class="stat-value" id="statTotal">-</div><div class="stat-label">Resultados</div></div>
+  <div class="stat-card"><div class="stat-value" id="statCats">-</div><div class="stat-label">Categorias</div></div>
+  <div class="stat-card"><div class="stat-value" id="statDE">-</div><div class="stat-label">Alemanha</div></div>
+  <div class="stat-card"><div class="stat-value" id="statBR">-</div><div class="stat-label">Brasil</div></div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" data-tab="results">Resultados Gerais</div>
+  <div class="tab" data-tab="summary">Resumo</div>
+</div>
+
+<!-- Tab 1: Resultados -->
+<div class="content">
+  <div id="tab-results" class="tab-panel active">
+    <div class="filter-bar">
+      <input type="text" id="filterText" placeholder="Filtrar por titulo ou palavra-chave..." oninput="filterResults()">
+      <select id="filterCountry" onchange="filterResults()">
+        <option value="">Todos os paises</option>
+        <option value="DE">Alemanha</option>
+        <option value="BR">Brasil</option>
+        <option value="US">Internacional</option>
+      </select>
+      <select id="filterCategory" onchange="filterResults()">
+        <option value="">Todas as categorias</option>
+      </select>
+    </div>
+    <div id="resultsContent">
+      <div class="loading"><div class="loading-spinner"></div>Carregando resultados...</div>
+    </div>
+  </div>
+
+  <!-- Tab 2: Resumo -->
+  <div id="tab-summary" class="tab-panel">
+    <div id="summaryContent">
+      <div class="loading"><div class="loading-spinner"></div>Carregando resumo...</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  let DATA = null;
+
+  // Filtro de titulos genericos (ex: "Search - www.daad.de")
+  const INVALID_TITLE_RX = /^(Search|Suche|Zoeken|Busca|Pesquisa)\s*[-–—]\s*/i;
+  const DOMAIN_ONLY_RX = /^(www\.)?\S+\.\w{2,3}$/i;
+
+  function isValidTitle(title) {
+    if (!title || title.trim().length < 10) return false;
+    if (INVALID_TITLE_RX.test(title.trim())) return false;
+    if (DOMAIN_ONLY_RX.test(title.trim())) return false;
+    return true;
+  }
+
+  function cleanData(data) {
+    // Filtrar itens com titulos genericos em todas as categorias
+    for (const catId of Object.keys(data.categories)) {
+      const cat = data.categories[catId];
+      const before = cat.items.length;
+      cat.items = cat.items.filter(item => isValidTitle(item.title));
+      cat.total = cat.items.length;
+    }
+    // Recalcular summary
+    let totalResults = 0;
+    let catsWithResults = 0;
+    let catsEmpty = 0;
+    for (const cat of Object.values(data.categories)) {
+      totalResults += cat.total;
+      if (cat.total > 0) catsWithResults++;
+      else catsEmpty++;
+    }
+    data.summary.total_results = totalResults;
+    data.summary.categories_with_results = catsWithResults;
+    data.summary.categories_empty = catsEmpty;
+    return data;
+  }
+
+  // Tab switching
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Load data
+  async function loadData() {
+    try {
+      const resp = await fetch('data/results.json');
+      if (!resp.ok) throw new Error('Arquivo nao encontrado');
+      DATA = await resp.json();
+      DATA = cleanData(DATA);
+      renderAll();
+    } catch (err) {
+      document.querySelectorAll('.loading').forEach(el => {
+        el.innerHTML = '<div class="error-msg">Nenhum dado disponivel ainda.<br>O GitHub Action precisa rodar para gerar os resultados.<br><small>' + err.message + '</small></div>';
+      });
+    }
+  }
+
+  function renderAll() {
+    renderHeader();
+    renderStats();
+    renderResults();
+    renderSummary();
+    populateCategoryFilter();
+  }
+
+  function renderHeader() {
+    const m = DATA.metadata;
+    const s = DATA.summary;
+    document.getElementById('headerMeta').innerHTML =
+      '<span>Periodo: ultimos ' + m.period_days + ' dias</span>' +
+      '<span>Atualizado: ' + new Date(m.generated_at).toLocaleString('pt-BR') + '</span>' +
+      '<span>Categorias: ' + (s.categories_with_results + s.categories_empty) + '</span>';
+  }
+
+  function renderStats() {
+    const s = DATA.summary;
+    document.getElementById('statTotal').textContent = s.total_results;
+    document.getElementById('statCats').textContent = s.categories_with_results;
+    document.getElementById('statDE').textContent = s.by_country.DE || 0;
+    document.getElementById('statBR').textContent = s.by_country.BR || 0;
+  }
+
+  function renderResults() {
+    const cats = DATA.categories;
+    const filterText = (document.getElementById('filterText').value || '').toLowerCase();
+    const filterCountry = document.getElementById('filterCountry').value;
+    const filterCat = document.getElementById('filterCategory').value;
+    let html = '';
+
+    for (const [catId, cat] of Object.entries(cats)) {
+      if (filterCat && filterCat !== catId) continue;
+
+      let items = cat.items;
+      if (filterText) {
+        items = items.filter(i => i.title.toLowerCase().includes(filterText) || i.search_term.toLowerCase().includes(filterText));
+      }
+      if (filterCountry) {
+        items = items.filter(i => i.lang.includes(filterCountry));
+      }
+
+      html += '<div class="category-block">';
+      html += '<div class="cat-header">' + cat.icon + ' ' + cat.label +
+              '<span class="cat-count' + (items.length === 0 ? ' empty' : '') + '">' + items.length + '</span></div>';
+
+      if (items.length === 0) {
+        html += '<div class="no-results">Sem resultados' + (filterText || filterCountry ? ' para este filtro' : ' neste periodo') + '</div>';
+      } else {
+        html += '<table class="results-table"><thead><tr><th style="width:100px">Data</th><th>Titulo / Link</th><th style="width:80px">Idioma</th></tr></thead><tbody>';
+        items.forEach(item => {
+          html += '<tr><td>' + formatDate(item.date) + '</td>' +
+                  '<td><a href="' + item.link + '" target="_blank" rel="noopener">' + item.title + '</a></td>' +
+                  '<td><span class="lang-pill">' + item.lang + '</span></td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+      html += '</div>';
+    }
+
+    document.getElementById('resultsContent').innerHTML = html || '<div class="no-results">Nenhum resultado encontrado.</div>';
+  }
+
+  function renderSummary() {
+    const s = DATA.summary;
+    const cats = DATA.categories;
+    let html = '<div class="summary-grid">';
+
+    // Card: Resultados por pais
+    html += '<div class="summary-card"><h3>Resultados por Pais de Busca</h3><div class="bar-chart">';
+    const countries = { DE: 'Alemanha', BR: 'Brasil', US: 'Internacional' };
+    const maxCountry = Math.max(...Object.values(s.by_country), 1);
+    for (const [code, label] of Object.entries(countries)) {
+      const val = s.by_country[code] || 0;
+      const pct = Math.round((val / maxCountry) * 100);
+      html += '<div class="bar-row"><span class="bar-label">' + label + '</span>' +
+              '<div class="bar-track"><div class="bar-fill ' + code.toLowerCase() + '" style="width:' + Math.max(pct, 5) + '%">' + val + '</div></div></div>';
+    }
+    html += '</div></div>';
+
+    // Card: Resultados por categoria
+    html += '<div class="summary-card"><h3>Resultados por Categoria</h3><div class="bar-chart">';
+    const catEntries = Object.entries(cats).sort((a, b) => b[1].total - a[1].total);
+    const maxCat = Math.max(...catEntries.map(c => c[1].total), 1);
+    catEntries.forEach(([id, cat]) => {
+      const pct = Math.round((cat.total / maxCat) * 100);
+      html += '<div class="bar-row"><span class="bar-label">' + cat.icon + ' ' + cat.label.split('(')[0].trim() + '</span>' +
+              '<div class="bar-track"><div class="bar-fill de" style="width:' + Math.max(pct, 5) + '%">' + cat.total + '</div></div></div>';
+    });
+    html += '</div></div>';
+
+    // Card: Periodo e cobertura
+    html += '<div class="summary-card"><h3>Cobertura</h3>';
+    html += '<p style="font-size:14px;margin-bottom:8px"><strong>Periodo:</strong> ' + DATA.metadata.period_days + ' dias</p>';
+    if (s.date_range.newest) {
+      html += '<p style="font-size:14px;margin-bottom:8px"><strong>Mais recente:</strong> ' + formatDate(s.date_range.newest) + '</p>';
+      html += '<p style="font-size:14px;margin-bottom:8px"><strong>Mais antigo:</strong> ' + formatDate(s.date_range.oldest) + '</p>';
+    }
+    html += '<p style="font-size:14px;margin-bottom:8px"><strong>Categorias com resultados:</strong> ' + s.categories_with_results + ' de ' + (s.categories_with_results + s.categories_empty) + '</p>';
+    html += '<p style="font-size:14px"><strong>Total de resultados:</strong> ' + s.total_results + '</p>';
+    html += '</div>';
+
+    // Card: Idiomas detectados
+    html += '<div class="summary-card"><h3>Idiomas Detectados</h3><div class="bar-chart">';
+    const langs = Object.entries(s.by_language || {}).sort((a, b) => b[1] - a[1]);
+    const maxLang = langs.length > 0 ? Math.max(...langs.map(l => l[1]), 1) : 1;
+    langs.forEach(([lang, count]) => {
+      const pct = Math.round((count / maxLang) * 100);
+      const cls = lang.includes('DE') ? 'de' : lang.includes('BR') ? 'br' : lang.includes('US') ? 'us' : 'other';
+      html += '<div class="bar-row"><span class="bar-label">' + lang + '</span>' +
+              '<div class="bar-track"><div class="bar-fill ' + cls + '" style="width:' + Math.max(pct, 5) + '%">' + count + '</div></div></div>';
+    });
+    html += '</div></div>';
+
+    // Card: Editais recentes (timeline)
+    const allItems = [];
+    Object.values(cats).forEach(cat => {
+      cat.items.forEach(item => allItems.push({ ...item, catLabel: cat.label, catIcon: cat.icon }));
+    });
+    allItems.sort((a, b) => b.date.localeCompare(a.date));
+    const recent = allItems.slice(0, 10);
+
+    html += '<div class="summary-card" style="grid-column: 1 / -1"><h3>Editais Mais Recentes</h3><ul class="timeline-list">';
+    recent.forEach(item => {
+      html += '<li class="timeline-item"><span class="timeline-date">' + formatDate(item.date) + '</span>' +
+              '<span>' + item.catIcon + ' <a href="' + item.link + '" target="_blank" rel="noopener" style="color:var(--primary);text-decoration:none">' + item.title + '</a>' +
+              ' <span class="lang-pill">' + item.lang + '</span></span></li>';
+    });
+    html += '</ul></div>';
+
+    html += '</div>';
+    document.getElementById('summaryContent').innerHTML = html;
+  }
+
+  function populateCategoryFilter() {
+    const select = document.getElementById('filterCategory');
+    select.innerHTML = '<option value="">Todas as categorias</option>';
+    Object.entries(DATA.categories).forEach(([id, cat]) => {
+      select.innerHTML += '<option value="' + id + '">' + cat.icon + ' ' + cat.label + '</option>';
+    });
+  }
+
+  function filterResults() { renderResults(); }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '-';
+    const [y, m, d] = dateStr.split('-');
+    return d + '/' + m + '/' + y;
+  }
+
+  // Initialize
+  loadData();
+</script>
+
+</body>
+</html>

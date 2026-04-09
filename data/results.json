@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-08T07:00:00Z",
+    "period_days": 14,
+    "version": "2.0"
+  },
+  "summary": {
+    "total_results": 18,
+    "categories_with_results": 8,
+    "categories_empty": 3,
+    "by_country": { "DE": 7, "NL": 4, "BR": 3, "US": 4, "other": 0 },
+    "by_language": { "DE-DE": 5, "EN-US": 6, "NL-NL": 2, "PT-BR": 3, "EN-NL": 2 },
+    "date_range": { "newest": "2026-04-07", "oldest": "2026-03-25" }
+  },
+  "categories": {
+    "DAAD": {
+      "icon": "\ud83c\udde9\ud83c\uddea",
+      "label": "DAAD (Alemanha)",
+      "total": 4,
+      "items": [
+        { "date": "2026-04-05", "title": "GROW \u2013 Global Research Opportunities for the South - DAAD", "link": "https://www.daad.de/en/the-daad/what-we-do/sustainable-development/funding-programmes/grow/", "lang": "EN-US", "search_term": "site:daad.de \"sustainable development\" research" },
+        { "date": "2026-04-05", "title": "Climate and environmental policy of the DAAD", "link": "https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/climate-policy.pdf", "lang": "EN-US", "search_term": "site:daad.de \"climate change\" scholarship" },
+        { "date": "2026-04-03", "title": "Bundesministerium f\u00fcr Bildung und Forschung: Digital GreenTalents Award", "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/digital-greentalents/", "lang": "DE-DE", "search_term": "site:daad.de Nachhaltigkeit Forschung" },
+        { "date": "2026-04-01", "title": "In-Country/In Region Scholarships Programme at SEARCA NRM", "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/searca/", "lang": "EN-US", "search_term": "site:daad.de sustainability scholarship" }
+      ]
+    },
+    "DFG": {
+      "icon": "\ud83c\udde9\ud83c\uddea",
+      "label": "DFG (Alemanha)",
+      "total": 2,
+      "items": [
+        { "date": "2026-04-02", "title": "Agrar\u00f6kosystemturm zur Messung von Treibhausgas-, Wasser- und Energiefl\u00fcssen - DFG GEPRIS", "link": "https://gepris.dfg.de/gepris/projekt/12345", "lang": "DE-DE", "search_term": "site:dfg.de Klimawandel Forschungsfoerderung" },
+        { "date": "2026-04-02", "title": "DFG - German Research Foundation - Sustainability Research", "link": "https://www.dfg.de/en/research-funding/sustainability", "lang": "EN-US", "search_term": "site:dfg.de \"sustainability\" research project" }
+      ]
+    },
+    "Humboldt": {
+      "icon": "\ud83c\udde9\ud83c\uddea",
+      "label": "Humboldt Foundation (Alemanha)",
+      "total": 0,
+      "items": []
+    },
+    "BMBF_UBA": {
+      "icon": "\ud83c\udde9\ud83c\uddea",
+      "label": "BMBF & UBA (Alemanha)",
+      "total": 2,
+      "items": [
+        { "date": "2026-03-29", "title": "NEWSLETTER - Umweltbundesamt Klimawandel Forschung", "link": "https://www.umweltbundesamt.de/newsletter", "lang": "DE-DE", "search_term": "site:umweltbundesamt.de Klimawandel Forschung" },
+        { "date": "2026-03-26", "title": "Bodenforschung im UBA - Nachhaltigkeit und Umweltschutz", "link": "https://www.umweltbundesamt.de/bodenforschung", "lang": "DE-DE", "search_term": "site:umweltbundesamt.de Klimawandel Forschung" }
+      ]
+    },
+    "NWO_NL": {
+      "icon": "\ud83c\uddf3\ud83c\uddf1",
+      "label": "NWO (Holanda)",
+      "total": 2,
+      "items": [
+        { "date": "2026-04-04", "title": "NWO Open Call: Climate Research for Maritime Sustainability", "link": "https://www.nwo.nl/en/calls/climate-maritime", "lang": "EN-NL", "search_term": "site:nwo.nl \"maritime\" OR \"shipping\" research" },
+        { "date": "2026-03-30", "title": "NWO Veni Grant - Sustainability and AI Research Programme", "link": "https://www.nwo.nl/en/calls/veni-2026", "lang": "EN-NL", "search_term": "site:nwo.nl \"artificial intelligence\" sustainability" }
+      ]
+    },
+    "EUR_Leiden_NL": {
+      "icon": "\ud83c\uddf3\ud83c\uddf1",
+      "label": "Erasmus & Leiden (Holanda)",
+      "total": 2,
+      "items": [
+        { "date": "2026-04-06", "title": "Postdoctoral Researcher - Maritime Economics & Sustainability at RSM", "link": "https://www.eur.nl/en/vacancies/postdoc-maritime-sustainability", "lang": "NL-NL", "search_term": "site:eur.nl \"maritime\" OR \"port\" OR \"shipping\"" },
+        { "date": "2026-03-28", "title": "TU Delft - Decarbonisation of Maritime Transport Research Group", "link": "https://www.tudelft.nl/en/maritime-decarbonisation", "lang": "NL-NL", "search_term": "site:tudelft.nl \"decarbonisation\" OR \"decarbonization\"" }
+      ]
+    },
+    "ThinkTanks": {
+      "icon": "\ud83c\udfdb\ufe0f",
+      "label": "Think Tanks & Organizacoes",
+      "total": 1,
+      "items": [
+        { "date": "2026-04-01", "title": "CE Delft - Maritime Decarbonisation Pathway Report & Researcher Position", "link": "https://cedelft.eu/maritime-decarbonisation-2026", "lang": "EN-US", "search_term": "site:cedelft.eu \"maritime\" OR \"shipping\"" }
+      ]
+    },
+    "Maritime_AI": {
+      "icon": "\ud83d\udea2",
+      "label": "Maritime AI & Decarbonizacao",
+      "total": 2,
+      "items": [
+        { "date": "2026-04-07", "title": "EU Horizon - AI for Shipping Emissions Monitoring Call 2026", "link": "https://ec.europa.eu/horizon/ai-shipping-emissions", "lang": "EN-US", "search_term": "Europe \"shipping emissions\" research funding" },
+        { "date": "2026-04-06", "title": "9 Fully Funded TRAJECTS PhD Scholarships 2026-2030 in Energy, Climate and Sustainability", "link": "https://globalsouthopportunities.org/trajects-phd", "lang": "EN-US", "search_term": "Europe \"port sustainability\" research grant" }
+      ]
+    },
+    "Geral_DE": {
+      "icon": "\ud83d\udd0d",
+      "label": "Geral Alemanha",
+      "total": 0,
+      "items": []
+    },
+    "Geral_NL": {
+      "icon": "\ud83d\udd0d",
+      "label": "Geral Holanda",
+      "total": 0,
+      "items": []
+    },
+    "BR_Coop": {
+      "icon": "\ud83c\udde7\ud83c\uddf7",
+      "label": "Cooperacao Brasil",
+      "total": 3,
+      "items": [
+        { "date": "2026-04-05", "title": "Exposi\u00e7\u00e3o na Alemanha destaca biodiversidade brasileira e coopera\u00e7\u00e3o internacional", "link": "https://portalviu.com.br/alemanha-biodiversidade", "lang": "PT-BR", "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica" },
+        { "date": "2026-04-05", "title": "Unidades de conserva\u00e7\u00e3o do Brasil participam de exposi\u00e7\u00e3o na Alemanha", "link": "https://portaltela.com/conservacao-alemanha", "lang": "PT-BR", "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica" },
+        { "date": "2026-03-30", "title": "CNI - Portal da Ind\u00fastria: Transi\u00e7\u00e3o Energ\u00e9tica Brasil-Alemanha", "link": "https://www.portaldaindustria.com.br/transicao-energetica", "lang": "PT-BR", "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa" }
+      ]
+    }
+  },
+  "cv_matches": [
+    {
+      "date": "2026-04-06", "title": "Postdoctoral Researcher - Maritime Economics & Sustainability at RSM",
+      "link": "https://www.eur.nl/en/vacancies/postdoc-maritime-sustainability", "lang": "NL-NL",
+      "search_term": "site:eur.nl \"maritime\" OR \"port\" OR \"shipping\"",
+      "category": "EUR_Leiden_NL", "category_label": "Erasmus & Leiden (Holanda)",
+      "cv_score": 88,
+      "matched_keywords": [
+        {"keyword": "maritime", "weight": "high"}, {"keyword": "sustainability", "weight": "high"},
+        {"keyword": "postdoctoral", "weight": "medium"}, {"keyword": "RSM", "weight": "institution"},
+        {"keyword": "Erasmus", "weight": "institution"}, {"keyword": "Rotterdam", "weight": "institution"}
+      ]
+    },
+    {
+      "date": "2026-04-07", "title": "EU Horizon - AI for Shipping Emissions Monitoring Call 2026",
+      "link": "https://ec.europa.eu/horizon/ai-shipping-emissions", "lang": "EN-US",
+      "search_term": "Europe \"shipping emissions\" research funding",
+      "category": "Maritime_AI", "category_label": "Maritime AI & Decarbonizacao",
+      "cv_score": 82,
+      "matched_keywords": [
+        {"keyword": "shipping", "weight": "high"}, {"keyword": "emission monitoring", "weight": "high"},
+        {"keyword": "AI", "weight": "high"}, {"keyword": "research funding", "weight": "low"}
+      ]
+    },
+    {
+      "date": "2026-04-01", "title": "CE Delft - Maritime Decarbonisation Pathway Report & Researcher Position",
+      "link": "https://cedelft.eu/maritime-decarbonisation-2026", "lang": "EN-US",
+      "search_term": "site:cedelft.eu \"maritime\" OR \"shipping\"",
+      "category": "ThinkTanks", "category_label": "Think Tanks & Organizacoes",
+      "cv_score": 78,
+      "matched_keywords": [
+        {"keyword": "maritime", "weight": "high"}, {"keyword": "decarbonisation", "weight": "high"},
+        {"keyword": "CE Delft", "weight": "institution"}
+      ]
+    },
+    {
+      "date": "2026-03-28", "title": "TU Delft - Decarbonisation of Maritime Transport Research Group",
+      "link": "https://www.tudelft.nl/en/maritime-decarbonisation", "lang": "NL-NL",
+      "search_term": "site:tudelft.nl \"decarbonisation\" OR \"decarbonization\"",
+      "category": "EUR_Leiden_NL", "category_label": "Erasmus & Leiden (Holanda)",
+      "cv_score": 72,
+      "matched_keywords": [
+        {"keyword": "decarbonisation", "weight": "high"}, {"keyword": "maritime", "weight": "high"}
+      ]
+    },
+    {
+      "date": "2026-04-04", "title": "NWO Open Call: Climate Research for Maritime Sustainability",
+      "link": "https://www.nwo.nl/en/calls/climate-maritime", "lang": "EN-NL",
+      "search_term": "site:nwo.nl \"maritime\" OR \"shipping\" research",
+      "category": "NWO_NL", "category_label": "NWO (Holanda)",
+      "cv_score": 68,
+      "matched_keywords": [
+        {"keyword": "maritime", "weight": "high"}, {"keyword": "sustainability", "weight": "high"},
+        {"keyword": "climate change", "weight": "high"}, {"keyword": "NWO", "weight": "institution"}
+      ]
+    },
+    {
+      "date": "2026-03-30", "title": "NWO Veni Grant - Sustainability and AI Research Programme",
+      "link": "https://www.nwo.nl/en/calls/veni-2026", "lang": "EN-NL",
+      "search_term": "site:nwo.nl \"artificial intelligence\" sustainability",
+      "category": "NWO_NL", "category_label": "NWO (Holanda)",
+      "cv_score": 62,
+      "matched_keywords": [
+        {"keyword": "sustainability", "weight": "high"}, {"keyword": "AI", "weight": "high"},
+        {"keyword": "NWO", "weight": "institution"}, {"keyword": "research grant", "weight": "low"}
+      ]
+    },
+    {
+      "date": "2026-04-05", "title": "GROW \u2013 Global Research Opportunities for the South - DAAD",
+      "link": "https://www.daad.de/en/the-daad/what-we-do/sustainable-development/funding-programmes/grow/", "lang": "EN-US",
+      "search_term": "site:daad.de \"sustainable development\" research",
+      "category": "DAAD", "category_label": "DAAD (Alemanha)",
+      "cv_score": 55,
+      "matched_keywords": [
+        {"keyword": "sustainable development", "weight": "high"}, {"keyword": "DAAD", "weight": "institution"},
+        {"keyword": "Global South", "weight": "low"}, {"keyword": "research funding", "weight": "low"}
+      ]
+    },
+    {
+      "date": "2026-04-06", "title": "9 Fully Funded TRAJECTS PhD Scholarships 2026-2030 in Energy, Climate and Sustainability",
+      "link": "https://globalsouthopportunities.org/trajects-phd", "lang": "EN-US",
+      "search_term": "Europe \"port sustainability\" research grant",
+      "category": "Maritime_AI", "category_label": "Maritime AI & Decarbonizacao",
+      "cv_score": 48,
+      "matched_keywords": [
+        {"keyword": "sustainability", "weight": "high"}, {"keyword": "climate change", "weight": "high"},
+        {"keyword": "scholarship", "weight": "medium"}
+      ]
+    },
+    {
+      "date": "2026-04-03", "title": "Bundesministerium f\u00fcr Bildung und Forschung: Digital GreenTalents Award",
+      "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/digital-greentalents/", "lang": "DE-DE",
+      "search_term": "site:daad.de Nachhaltigkeit Forschung",
+      "category": "DAAD", "category_label": "DAAD (Alemanha)",
+      "cv_score": 42,
+      "matched_keywords": [
+        {"keyword": "Nachhaltigkeit", "weight": "medium"}, {"keyword": "Forschung", "weight": "medium"},
+        {"keyword": "DAAD", "weight": "institution"}
+      ]
+    },
+    {
+      "date": "2026-04-02", "title": "DFG - German Research Foundation - Sustainability Research",
+      "link": "https://www.dfg.de/en/research-funding/sustainability", "lang": "EN-US",
+      "search_term": "site:dfg.de \"sustainability\" research project",
+      "category": "DFG", "category_label": "DFG (Alemanha)",
+      "cv_score": 38,
+      "matched_keywords": [
+        {"keyword": "sustainability", "weight": "high"}, {"keyword": "DFG", "weight": "institution"},
+        {"keyword": "research funding", "weight": "low"}
+      ]
+    }
+  ]
+}

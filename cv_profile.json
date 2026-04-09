@@ -1,0 +1,46 @@
+{
+  "name": "Darliane Ribeiro Cunha, PhD",
+  "institution": "Federal University of Maranhao (UFMA)",
+  "tracks": {
+    "track1": "Postdoc/researcher academico em universidade alema (ITF, Fraunhofer)",
+    "track2": "Researcher em think tank/organizacao internacional (EMSA, IMO)"
+  },
+  "constraints": {
+    "phd_year": 2016,
+    "age": 54,
+    "note": "Verificar limites de idade e tempo desde doutorado"
+  },
+  "keywords_high": [
+    "maritime", "shipping", "port", "decarbonisation", "decarbonization",
+    "CO2 emissions", "emission monitoring", "vessel emissions",
+    "sustainability", "sustainable development", "SDG",
+    "environmental performance", "climate change", "climate action",
+    "NLP", "text mining", "computer vision", "artificial intelligence", "AI",
+    "data analytics", "machine learning",
+    "governance", "environmental disclosure", "sustainability reporting"
+  ],
+  "keywords_medium": [
+    "energy transition", "renewable energy", "green shipping",
+    "fuel consumption", "carbon accounting", "GHG",
+    "stakeholder engagement", "cross-institutional",
+    "bibliometric", "scientometric",
+    "decision support", "dashboard", "benchmarking",
+    "water quality", "waste classification", "plastic detection",
+    "postdoctoral", "fellowship", "research grant", "scholarship",
+    "Forschung", "Stipendium", "Nachhaltigkeit", "Klimawandel",
+    "transicao energetica", "mudancas climaticas", "sustentabilidade"
+  ],
+  "keywords_low": [
+    "research funding", "call for proposals", "research project",
+    "international cooperation", "capacity building",
+    "developing countries", "Global South",
+    "Brazil", "Brasil", "Brasilien",
+    "university", "professor", "teaching"
+  ],
+  "target_institutions": [
+    "ITF", "OECD", "EMSA", "IMO",
+    "DAAD", "DFG", "Humboldt", "BMBF",
+    "Fraunhofer", "Max Planck", "Helmholtz",
+    "CAPES", "CNPq", "FAPESP"
+  ]
+}
