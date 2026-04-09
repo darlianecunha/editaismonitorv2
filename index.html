@@ -153,7 +153,6 @@
     .bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 11px; color: white; font-weight: 600; min-width: 28px; }
     .bar-fill.de { background: linear-gradient(90deg, #1e40af, #3b82f6); }
     .bar-fill.br { background: linear-gradient(90deg, #047857, #10b981); }
-    .bar-fill.us { background: linear-gradient(90deg, #6d28d9, #8b5cf6); }
     .bar-fill.other { background: #94a3b8; }
 
     .timeline-list { list-style: none; }
@@ -210,7 +209,6 @@
         <option value="">Todos os paises</option>
         <option value="DE">Alemanha</option>
         <option value="BR">Brasil</option>
-        <option value="US">Internacional</option>
       </select>
       <select id="filterCategory" onchange="filterResults()">
         <option value="">Todas as categorias</option>
@@ -234,7 +232,7 @@
   let DATA = null;
 
   // Filtro de titulos genericos (ex: "Search - www.daad.de")
-  const INVALID_TITLE_RX = /^(Search|Suche|Zoeken|Busca|Pesquisa)\s*[-–—]\s*/i;
+  const INVALID_TITLE_RX = /^(Search|Suche|Busca|Pesquisa)\s*[-–—]\s*/i;
   const DOMAIN_ONLY_RX = /^(www\.)?\S+\.\w{2,3}$/i;
 
   function isValidTitle(title) {
@@ -363,7 +361,7 @@
 
     // Card: Resultados por pais
     html += '<div class="summary-card"><h3>Resultados por Pais de Busca</h3><div class="bar-chart">';
-    const countries = { DE: 'Alemanha', BR: 'Brasil', US: 'Internacional' };
+    const countries = { DE: 'Alemanha', BR: 'Brasil' };
     const maxCountry = Math.max(...Object.values(s.by_country), 1);
     for (const [code, label] of Object.entries(countries)) {
       const val = s.by_country[code] || 0;
@@ -401,7 +399,7 @@
     const maxLang = langs.length > 0 ? Math.max(...langs.map(l => l[1]), 1) : 1;
     langs.forEach(([lang, count]) => {
       const pct = Math.round((count / maxLang) * 100);
-      const cls = lang.includes('DE') ? 'de' : lang.includes('BR') ? 'br' : lang.includes('US') ? 'us' : 'other';
+      const cls = lang.includes('DE') ? 'de' : lang.includes('BR') ? 'br' : 'other';
       html += '<div class="bar-row"><span class="bar-label">' + lang + '</span>' +
               '<div class="bar-track"><div class="bar-fill ' + cls + '" style="width:' + Math.max(pct, 5) + '%">' + count + '</div></div></div>';
     });
