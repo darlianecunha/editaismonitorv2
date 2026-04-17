@@ -1,34 +1,41 @@
 {
   "metadata": {
-    "generated_at": "2026-04-16T08:28:28Z",
+    "generated_at": "2026-04-17T08:28:06Z",
     "period_days": 14,
     "version": "2.0"
   },
   "summary": {
-    "total_results": 36,
-    "categories_with_results": 8,
-    "categories_empty": 0,
+    "total_results": 39,
+    "categories_with_results": 7,
+    "categories_empty": 1,
     "by_country": {
-      "DE": 31,
-      "BR": 5,
+      "DE": 29,
+      "BR": 10,
       "other": 0
     },
     "by_language": {
-      "DE-DE": 10,
-      "EN-DE": 21,
-      "PT-BR": 5
+      "DE-DE": 11,
+      "EN-DE": 18,
+      "PT-BR": 10
     },
     "date_range": {
-      "newest": "2026-04-15",
-      "oldest": "2026-04-02"
+      "newest": "2026-04-17",
+      "oldest": "2026-04-03"
     }
   },
   "categories": {
     "DAAD": {
       "icon": "🇩🇪",
       "label": "DAAD (Alemanha)",
-      "total": 9,
+      "total": 10,
       "items": [
+        {
+          "date": "2026-04-16",
+          "title": "Study \"Art\" (Master) in Germany - University of Education, Heidelberg - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaVZyblBiQkRYaC1Wck1JdHlYQmFBcXhnelN0WXN0ZVRfOTVPdjVZODROU2wzSUZyV3h5MnhNNHlkX1pSNFM1VzNLV21ybzhEMlJlVmRUWHFsQkw0N1JTdC1vMno1UFpnWmQ0Z09yb3FrWnBtTkJaZ0lPWVYyd1pDZk90eFpVUnRpTEw1aEdxT3VDSGVjUEFZZE94RFZma3JLRG9VVlJibmRUbUg0U3VJa2FZNEdOTlZJRkQ3anFwdFRnMnU0LWtXZkxacVFKazluMDlXemNRRjhvWURnWFdMeHdMZHIyZnpfQk9RMkVNbENnV0JrdkYzRFVhcw?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
+        },
         {
           "date": "2026-04-15",
           "title": "\"Doctoral Researcher (m/f/d) Position in Forest Ecohydrology\" - University of Freiburg Faculty of Environment and Natural Resources (UNR) Prof. Dr. Markus Weiler - www.daad.de",
@@ -86,47 +93,32 @@
           "search_term": "site:daad.de \"climate change\" scholarship"
         },
         {
-          "date": "2026-04-05",
-          "title": "German-Ukrainian University Network (DUHN) - Project Profiles - static.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdFpkcGdaLTI2OGRHLWNUMTJJZGcxN2FjWlNxOUJGY2lqbEZ1TnZtWDBMU1FjZV9XRlVFZW1IbDJobVg4V1lLQ3FMbWxudzNYaThmWHJaRUhVejg1SmxnZlJwNV9FZUhhdzFNbXpBWVltT0lWQjlhX0o0WjBULWFOdnZOWDNBRm9jWXNtYlNoMEpzWXQtSVRvck4zMGdtNTQzWExjMEljb3dQa191Y3dVblBLeld2bXFXM012NjkwSFlJclQyTldlXzVEcjdTaFBoVUhzV3lQckhJa0Y1N2JV?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"sustainable development\" research"
+          "date": "2026-04-03",
+          "title": "Bundesministerium für Bildung und Forschung: Digital GreenTalents Award - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVmM1TkUzLXJwd0pacFVLV0FHRE42ZHM5S1JLYUdVQklMbTVtYzFHOHNWUWJ1LU5Va1FuRnNvUV83NWkwMDU1ZUViSktNZTdnM2Jqd1BnZGFxUzdLTEhWUWI4eHR3VzF1V1plcjEtODYyWFZ5Zi04YUp0R0J3ZndmZEl5M2g1MWc5ZHNBZXVQNWNMRUZXZm0wdUxOaGsxZHFyMVZiVDJodmFVVE5MODJLUXhBMDZWVnlyMVFydzhKa3k4Q2VSMkY4UVAzQ3UtUmI3SGE3Q1hIRWFDcUxFZjlVTmNSaDBxUlR6Vm5QcjU1MDR3QQ?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de Nachhaltigkeit Forschung"
         }
       ]
     },
     "DFG": {
       "icon": "🇩🇪",
       "label": "DFG (Alemanha)",
-      "total": 3,
-      "items": [
-        {
-          "date": "2026-04-02",
-          "title": "BiodivERsA/Biodiversa+ - DFG - Deutsche Forschungsgemeinschaft",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc2taMzZoQkpFM0FYcjBPdVFnSGxfOUhfZHE1OUlwbkpzVEZpdnN5RC1MNjQxQ3JPZzZMUVRmTjRtWUtldVM4RFVjUmxyWkUySGhycllsT2hiaDBjZFlkczNGNUF3N1V4dURIQXlFb1hzaXpHTTlSVmZoa2tMM3hsVGNmOURGMHlFWmZzbExvVkJwUGN4TWE0?oc=5",
-          "lang": "DE-DE",
-          "search_term": "site:dfg.de \"climate change\" research funding"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Agrarökosystemturm zur Messung von Treibhausgas-, Wasser- und Energieflüssen - DFG - GEPRIS",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83RTlEYmFzY3kyYWhBdjBrbDlIWkljTERxQ19Kclhfb2I3eHljOVZRZ0M4Y1Q5aE1VV2pnQVYyR2dINWR2QnVPYnlnWUxsTERiS1NQOXdtX2FyQQ?oc=5",
-          "lang": "DE-DE",
-          "search_term": "site:dfg.de Klimawandel Forschungsfoerderung"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Emmy Noether Groups “Methods in Artificial Intelligence” - DFG - Deutsche Forschungsgemeinschaft",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ3RrSzNkcFFXSzZwQm9fR2Z5VU9WY2FxbE5Ga0JlM0U3dnNJcGx2bkNnVW1YUnFTWXBxYWlIcTZ5cHM1dE0wT29fQ3dfV3VBXzcxOFltaHBsdWFTZTlYR0s3NEM2bFZKMFJsOUN5cWpnT3c1bkNjck10N0NqMndudW1Qdw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:dfg.de \"artificial intelligence\" sustainability"
-        }
-      ]
+      "total": 0,
+      "items": []
     },
     "Humboldt": {
       "icon": "🇩🇪",
       "label": "Humboldt Foundation (Alemanha)",
-      "total": 2,
+      "total": 3,
       "items": [
+        {
+          "date": "2026-04-16",
+          "title": "Call for applications - Humboldt-Stiftung",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU3ZkOHI3RU51a2x2OE0zQ2tUQlpHQmRlVEJFamZWSzIxakZoeFdpek16WlNaVHJVanhUUkNZSnlncnVUbGY5UEg1dzlOTE4tXzhWZXhvVFFiZkFZYnJReDRqSFdKdzdrNkRES1NvSEtBZ2hCVVNWSzRadHFXSzlZbE5BakJJdGExU0pOOXkyYXQ0T1dfbUxzcm81UWRILXZmOGtOcnBFTFY0WFVhb185V2NjenBvS0Z5d1FEVGVwOGhXOWIxLW9GTzln?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:humboldt-foundation.de climate sustainability research"
+        },
         {
           "date": "2026-04-05",
           "title": "Dr. Ana Karol - Humboldt-Stiftung",
@@ -146,7 +138,7 @@
     "BMBF_UBA": {
       "icon": "🇩🇪",
       "label": "BMBF & UBA (Alemanha)",
-      "total": 1,
+      "total": 2,
       "items": [
         {
           "date": "2026-04-13",
@@ -154,28 +146,21 @@
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52dDBpZ214UXFRNTlZaW9XRWZxNXZoSVdTMTJNcktvYk5PTGR3YTRYS0UtNmVOLWZqdlRuWVJEODRqYnViQ3pqNXY3amc5dFpKNzFHaUkxcFotN3c2ZkdmMTR5My15Ykctd3BtNFVDak1TakhhTUQtUnJKNGZhUQ?oc=5",
           "lang": "DE-DE",
           "search_term": "site:umweltbundesamt.de Klimawandel Forschung"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "Indikator: Eutrophierung von Flüssen durch Phosphor - Umweltbundesamt",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWGgtSzJlTzg2a3Rzel94OXI1OGl4MEw5TTV0WExTQUQwd0dwczNnSl90dHU4VHdlR1ZlVGU4V0lwZzc2UjlxTm1jaHBaRTFkREp6cjI2YkRJZmg1QmJlS0pIS2R5Z2lXOUNHSmYxc2hQdWx6MlFMMnA1amhxRjdfNGZlckZ5VXFVd3c?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:umweltbundesamt.de Klimawandel Forschung"
         }
       ]
     },
     "ThinkTanks": {
       "icon": "🏛️",
       "label": "Think Tanks & Organizacoes",
-      "total": 6,
+      "total": 4,
       "items": [
-        {
-          "date": "2026-04-14",
-          "title": "Laser Based Thermal Processing - Fraunhofer-Institut für Solare Energiesysteme ISE",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNODNJYU83eldQdzVrQ0lxOFJMZzdXWkFON1pBOUU2b0REQkF4a3dVVy1FQUZqRFhXc0NhejhIODlaUnNJTFN2TFNOaVN4Rkc3VlRldm90SXhXZUdYX1BaYUxiVmxfMHNjZkV4eTVXS3p3MkNnb3RrOS1PSGFwYkZBVFVkaFRWWDlQSlJUN21ENHp4OFNJMUl2bFlRbjJfYUl5NzFCY25oY1N0S3YwYTdFekJQQXh1RDVNd3lfdWYzdkFWSFpqblNiOEs5Yll6aUhpVXEwRGQwZC1tNk1BaFhzZjFUSQ?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:fraunhofer.de \"decarbonisation\" OR \"decarbonization\""
-        },
-        {
-          "date": "2026-04-14",
-          "title": "NEXUS GreenTech Supports Companies in the Photovoltaic Industry - Fraunhofer-Institut für Solare Energiesysteme ISE",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVF9wSEEwLTBrWXVHU0gyeURVM1dOOFFkcUFkSjlVbHlSNmhtOERtVXpPRGJ1bHQ1VTk0UGNIZGozbzR6QjNnR3BpdFNpbnNfdjJCU0gzR2NHaDBzaUV1Z2RreFBUYjJ5M1Y1VzhLdmNpQ21EaWlxR183allLVEhzbEU0VWVPd2N0dmQ1eUVaemptTFFmak00SUVWQ0pVRW1lenVxTHltcjdaUVBCeEJ1WVNNN1RXdFBLeHBaRm83UV9qTEJFVlhuY1FjUFpWQQ?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:fraunhofer.de \"decarbonisation\" OR \"decarbonization\""
-        },
         {
           "date": "2026-04-11",
           "title": "- IFAM - Fraunhofer",
@@ -191,18 +176,18 @@
           "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
         },
         {
+          "date": "2026-04-04",
+          "title": "Profile of Julia Orlik - ITWM - Fraunhofer",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZ0hOdmJyM1ZURUxnbThiZ2pxcDNBNHhUVjV2UG5lS3lROFFMemhtUlgzdy1Ia2ZhVndSSExDeHZ4dGxWZWVDZFljLXp0YWZVd2N5ZzlsSVN6dlA2Ri1OS2xrcnEwRFRfUDRaSUZTd0Z6RlBZc3ZwM2tVQmt6aWxBQ0FLeUZPZ0dJUDFMRWRwazNtUlBjRHlCenhVQ2JoZnNYRk5fNEFLU0VXVXMydmw1TktWUzBmT01tTmF4LV9GYnZzMEtxeEVWVXFQWnB0aUZ6aXFwamg1UTZEbHhhUGFrNDVla1lwM3d6NFRncTdFd09mRUgy?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
+        },
+        {
           "date": "2026-04-03",
           "title": "Design and implementation of ‘Industrial Decarbonisation Bank’ - Fraunhofer ISI",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTzl0REFCajlac2Zha1ZiLXIyZHpPZTVIYVpxQ1NmUmtqVks0eFdpNUI1TlkycU40WWtLQmhWcEhNNUdSX0FzZm9DMU5lVEF1TU1TcGo1WDZHTWd5akt3UjVXOVFWNGp2SjFaX281a2hlaWVObGFvTGRJMElSeGUwMGl2MTBsNHJQOXZaTVpuZ01ReE1mVEc2Und6bFVYOE5wQ2R2dzgtM0QzT0tGVkllMW5CR3YzR1poV0hrYUNVTTE2VnhB?oc=5",
           "lang": "EN-DE",
           "search_term": "site:fraunhofer.de \"decarbonisation\" OR \"decarbonization\""
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Sustainable Business Models for Decentralized Ammonia Technologies - Fraunhofer IKTS",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNV2lOaDhXRllwTVZqVk1UMFZsczlrOGpaQVI3aGN1UTNwU1Z3T0hsek41dkFSUDNEX2RoaU43RGFqRjJveHFoNlFfLUpheTc5TmQxMnpIZzQzNUF6LVZKbEVjZVZRazhKVjREbUgyZDg0OEo0R1p2UWZWUmRNakFKempWLTBwUGgzemdPR19GVHAyWWpoUjlvaEQybk5tV3ZjWkk2YTZaQjhraWFfOEMzdlQ3NFdZbXVNSjVTSWFsNlQ5VmN5T1VJMnI3bHBZVTRUQm1Ucl9zRGZ1OGlSTmdoSzdvdG56Zw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
         }
       ]
     },
@@ -226,6 +211,13 @@
       "total": 6,
       "items": [
         {
+          "date": "2026-04-17",
+          "title": "Lead with Impact: Explore 50+ Global Leadership Opportunities - fundsforNGOs",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUW0tSWRsY3o3VzdnbnF2NVIwSlpDVkQwS0RVWHNMbl9udWlXZzRVZEJYRVlCYjY3eUZ5bDV2TUFOUzZUOVBsQVQtMlU4Ykh3QUlxYktjY3VWXzhsR1dzdldtajhHSGJuY3JaYkhseXE1bEdTVTR4bGpaNmp0cjBfbEtteVJjWEo5SXc2YjR2NGFTUUJiVFIyWFp2RDRqX3B2alVUZtIBpAFBVV95cUxPUW0tSWRsY3o3VzdnbnF2NVIwSlpDVkQwS0RVWHNMbl9udWlXZzRVZEJYRVlCYjY3eUZ5bDV2TUFOUzZUOVBsQVQtMlU4Ykh3QUlxYktjY3VWXzhsR1dzdldtajhHSGJuY3JaYkhseXE1bEdTVTR4bGpaNmp0cjBfbEtteVJjWEo5SXc2YjR2NGFTUUJiVFIyWFp2RDRqX3B2alVUZg?oc=5",
+          "lang": "EN-DE",
+          "search_term": "Germany \"sustainable development\" postdoctoral fellowship"
+        },
+        {
           "date": "2026-04-13",
           "title": "Call for Applications: Domestic Grant Program 2026 (Japan) - fundsforNGOs",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTlhwbzJYenBva2ZPLTV4elNod01lX2VHdnBIb3g0a3lNNGxXV2N4ekVVQ0k3c3otWGpZRkQzRGdEZzk4QzU1eFR1THdhVlRmWFNUU3hDZWsxbjB1b1NRUEZUV2E3M3g0d1R5MmZxQlF0Rkl2TU5OaG9qX040UUM5SXpQT3FTeENBc2NxZmtyNnBVOFZQWmlna1dOVTN5QdIBowFBVV95cUxNdHhjRkVyWF9zUzQ2cnVkWEd4RzhSdkZ3V1JzbHlfLS1pUEN1U0FiMUU2MUt1dkxHUzNNUGdsWjhnVXpDSUlVeC1NeW51N256NTZrU2h3SzRsSzNBTUtrLWFTLXJyMDFtMUdoZkl0dU9JRXA0VjltWGIwT19KZVJvblhid1JYdEM2cDlmYWtuX1hNcXQ3ck93QmV6UDhfNm9pQzJN?oc=5",
@@ -233,11 +225,11 @@
           "search_term": "Germany \"climate change\" research funding call"
         },
         {
-          "date": "2026-04-12",
-          "title": "Call for Applications: Fully Funded Earth Guardians Summer School 2026 in Beijing - Global South Opportunities",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EdlpXVzdFdy1DWUstYzJQdlFoLUVNYngwOHdaVmNZNU1IeDc2MC1nSXlxVVl5bm9HdG5iLWFsNTNDY0ZVVE5GcTRIUzk2eGNtbEw4MUUzRVdNYzZhSHpicGY0dWJqUU5mWXpEVg?oc=5",
+          "date": "2026-04-11",
+          "title": "Call for Applications: DAAD In-Country/In-Region Masters Scholarship Programme 2026/2027 - Global South Opportunities",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyNUthNTdPME03dkFTR2lQNnZDMWhkZXhlUmJLWDhwWkc5RmpvSXhVY19jb2xvTDJrSm1WS3V1TG16cy1jZ0x1RExUTHlUSGF2b1Y5cGFjck9ZWUtHY2E0VDMtWDFSWl93YU45OXVyY0RXWHRZWlE?oc=5",
           "lang": "EN-DE",
-          "search_term": "Germany \"climate change\" research funding call"
+          "search_term": "Germany \"sustainable development\" postdoctoral fellowship"
         },
         {
           "date": "2026-04-10",
@@ -259,25 +251,53 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMGlqRjhmUlFfaWoza28wSnVUNzBpTDZqbHE2U2J0NFg3TVZKR2hRZG9MVE9mNE44ODRLVXFUZVZNTk1nRGRQQWxjTy1yZFNvd0tiS0xWWnduZ285blNJdGUxalhFTVlkdGlBdWZ5UGxBQXpXVldHaWxFdVJ1U0otRUE5SnZER0xYZTFoSjN5ZzR4Sm_SAZgBQVVfeXFMT0tlQzFweW9qNW9GZmtfb0swR3RIaHhlVkIwdWItQnNrdGZ3TXlCc3pZNXVyZUY5SkY0RmJmSkNvLXp5b3JSMEE4RUx6Y2U4S3dyZzNfb3RDYXlad3c4T0pCQ1dTNDBLd0VRUzhoX0NMSjljXzB5RVo5Z1RqdWtFUnJoTXoyMGNIV1BMb3dOU0Nzd2l5ODFqcnU?oc=5",
           "lang": "EN-DE",
           "search_term": "Germany \"climate change\" research funding call"
-        },
-        {
-          "date": "2026-04-07",
-          "title": "Funding Opportunity for Climate-Resilient and Low-Carbon Healthcare Systems - fundsforNGOs",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlBTUDdDbTNkNHlMTjJOU0VhLWV0N0RjcGdQQzdING53WEZ1bnZoNHZvQUl0dWNoZ2lKZFcycjRBS3dlMlctb0N6OXlMYXZ1Y2xsRktkRC0wZVVCaTVTbVpoUnlOdExmazNkd3VvTTBDYmFjVDhldWdOYTczUHBYYTc5bnpfTEdBejVIb2UyVS1lZG0tZXZ6UDJ1T0Rpd2o3c3NqM3VhY0QzVHZFQXV5UUhaVWFfbEhY0gG-AUFVX3lxTFBqV3dJa2xzMzNSd3EteXMxWVprcllhTGtLclRaMERWdkVlV0liOHJTTldNNU9ob0wwSnpLcV91cGhXMWpXdTFFbWI5T2VMVEdRY0laanpHSUFSenRRZVRKRGJadW42T2Zrd1U4UEctdlJqR1d3OFgzTDdEbGZnVmo0ZDZ2MVZDZ3RjbTIwLXpvWnJtWEMxcDhQRHUwNUsyVkg3U1F5S2FaYjJjOGUzdVZfQVFQRG9qZWJPUXRNNXc?oc=5",
-          "lang": "EN-DE",
-          "search_term": "Germany \"climate change\" research funding call"
         }
       ]
     },
     "BR_Coop": {
       "icon": "🇧🇷",
       "label": "Cooperacao Brasil-Alemanha",
-      "total": 8,
+      "total": 13,
       "items": [
+        {
+          "date": "2026-04-16",
+          "title": "Lula inicia viagem para Espanha, Alemanha e Portugal - Jornal do Brasil",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa09vMjV6bzdRS1ZoM3BoMlE1d0tpSnFyMjlrdlI1U2EtX0JlbFFJUmhEVTJyblFyQlBPV2NWblBGLTRLbjkwWEJydVJUNmh2MXFfdGU3VklVSnZ4QmJ0YU9Hdl8wcGhsY1U0WG9uVUUzaVZlaVA2S01MTXhRdExGem9ubUJDU3QxSlV0VzdGTmtDZHQ4TTJDSWtVVHFTTm5nNVZJbEhlZlh3QXFFaUFJ?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Lula inicia viagem para Espanha, Alemanha e Portugal - Acessa.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3h0cUFrY2otSnZENkFLR090dDVlUUJBRm5BSktVMDZLQzAwQU1DQjRMaHZFc1dPb09TZEt4Tms5bTB1S3pxbEJvTVhER2U2UUdYSThrR0JRSkxBcmR6YkgyZGV5aUdYSGxxZmVXcVZQZkRUMURtRVloYjV6blBCa2lLbWhuNEJNMlVCVE1WTU1FZWpoM2hETnh0amlXRHNBSFU4RE91R2tBMnPSAasBQVVfeXFMTVd4dHFBa2NqLUp2RDZBS0dPdHQ1ZVFCQUZuQUpLVTA2S0MwMEFNQ0I0TGh2RXNXT29PU2RLeE5rOW0wdUt6cWxCb01YREdlNlFHWEk4a0dCUUpMQXJkemJIMmRleWlHWEhscWZlV3FWUGZEVDFEbUVZaGI1em5QQmtpS21objRCTTJVQlRNVk1NRWVqaDNoRE54dGppV0RzQUhVOERPdUdrQTJz?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Lula inicia viagem a Espanha, Alemanha e Portugal - Portal Tela",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmlvQldsWVhhZmJ6d3JWYW56Y2daeUROVm9ic0NXZnp3U25kd1pPNTFZUXU1bUtRSWluZVBYbUQxdlYtcFVQMHhrdmFWaFF1cUVjX3RDdmhiNmNaREc4N25veEdrdzJYSHE5a2dQbGg5eXhrNTVwSFRNa2pDcE15UkFuU21JblB2VTYtSzM5UEw3OVU4THVKUHBYT2dHTWtHZDFHVk5fWEp6amJRdGxR?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Lula busca apoio estratégico na Europa e pode destravar benefícios ao Brasil - DIÁRIO DO ESTADO",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSGxUWGpYdTFzTkVYalZHeXFELXp4eFhyWWd3Rk4xUGc4ZklXUlFCSVJOalZJdlI2MlM3R0JVU01TU2xDOHBsNVhpNjBhRFJONTVmWHA4SkNfMW9CNGsyWUplOFBfcVVWZXI4V3E2a0tOZ1dTUWY2Z21haW9fVzB3c1diZEkydFROdzF0bG5oVTV2TG5wa3lORFJVOW9XcnJ3ZGRxdjhVUTB6amM3NXNlQ1FMU0hXM1k?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Lula inicia viagem para Espanha, Alemanha e Portugal - ultimasnoticias.inf.br",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ3ljMnZtSlNhamFZd1ZkTWptcE1HNk15amxva3NoWU9mV085QzgyeUFwcWloVEVMcC1fTHNsMVkzQXhrOUk1QTlpYmlqMkF6cVp5clVwYW9KbFExb0ZlTURoVGZGYklWamx3QUhUWnByUFI1WDBXMmxsb2p0aUxtQnRHYXZBZTRkRGpoVnNVVnFtZWZacWc?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
         {
           "date": "2026-04-15",
           "title": "Eventos - Portal da Indústria",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZWQ2X0RwNzFlc3lWZG1abE1kQklXd1FESTZhd0Z6Tkx0V3FPcTgtRGxZcERGMHNTRVdEeTFOSHIwOTFfV2VRSmt0NzhSRExMUXF4WXB0U3h3eXBhbHFfVjVCUFpCR2ZtSVF1Q2FlaTJSVzBzdkZHdFZydjEzSlBwaW1qQjZMNnRLSXJRMVdSVkh6aHlLU0hHSE1Vc3JLLWFSX0Nsa2VCNFNFQnFucmxYaUFxZHZlU1hRNnVQQWpQbTRPdlN0ZEEyTlo1Q3NzN055bVE0UU1Vdm1Nb1AwMlNfYnlCYmE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWWVINHp6WnctRzRvOFh2VDVSYi1vTUk4Zkl2UUZpZ3dkWWF2eGJaNDd4eWJZQ2ctS2xpRHJZYzRiU0tET0EtWFYxMXFYOW9EdTl2TC1fWlNCOXBBRWZaR09sOEViVzJCVWQxWFBRQnh0VURpV3lINHJ5YWt5Y1YzMmxySWkzOTVmR016VnNEVG00czN4WWRmZlpyWGI3Rk1mWWU3d0lWaU53T0U4Z2N1RWY5TUoxR3hnVjh2bGVIeEhNWmliVjZ4SEZWaG9BaWMxNllHc3NXc0Z4b3dpb3Q0UE96cFFESGM?oc=5",
           "lang": "PT-BR",
           "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
         },
@@ -297,7 +317,7 @@
         },
         {
           "date": "2026-04-09",
-          "title": "Ação em parceria com Alemanha recebe inscrições até maio — CAPES - GOV.BR",
+          "title": "Ação em parceria com Alemanha recebe inscrições até maio — CAPES - www.gov.br",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQzhXbnA2dFQ0Q1MzelBJWjBtTmJOWURVOGdWQzJaeV8tcHV2Qjd4SzEzdHJkLTdZUlRYU01aYzlHUXVuT3NIRTBQajJKTVlJNnJwZExWT01ONjJfNU9LTWJ2WkVDMkVyOERyUll5d0dWTXVjZjlzMmZrUkFyNFZUUUU4UW9jekFZeUI2cEVmaWJyRjlEeDB3WnFYVVlSNmdjSUpCZWdKaGc?oc=5",
           "lang": "PT-BR",
           "search_term": "Brasil Alemanha cooperacao cientifica edital"
@@ -310,6 +330,13 @@
           "search_term": "Brasil Alemanha cooperacao cientifica edital"
         },
         {
+          "date": "2026-04-07",
+          "title": "Parques brasileiros ganham vitrine internacional na Europa - Revista Amazônia",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZQVQ4SE5BN2NSYkFBSTZQUDZkWnZyVXEwU1FtUlhFSjAzNUtKWDdUSTdhMGxmN1UtQ3FYOE50THhzU3JJMHF2eHhBQVlCLVdoUUh4c1lRVDZ2UWZsUlJWcVVJX1gxWk9ZcUQyd3BoaUZ2SVc3U3ZXZ1JyZjZBQTQ?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
+        },
+        {
           "date": "2026-04-05",
           "title": "A Heated Debate: Climate Change and Conflict in Africa - GIGA Hamburg",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOWpwNmstdEhHRDdhN1JXMXJzT1VHZ3BwalVmV2hWV2tVMVQ5RDNZTUpWRjRKbWVOUUwxM1g1Y0dCbmpQVFgxOGZLOXdwTzVBakNJWlFxSGNHbnFZR1c4QjNwTE1JZGtCVm1mN0tkMTZ3Rk0wSjBlZG8tcDhSa0FOamg0d3lubGJFTVphQlBmV2ZNVGI4RjFmcjZvSFNvRWF2Mml1Q3p4eDk?oc=5",
@@ -318,17 +345,10 @@
         },
         {
           "date": "2026-04-05",
-          "title": "Numerous DAAD In-Country/In-Region Masters & PhD Scholarships 2026/2027 for Sub-Saharan African Students - afterschoolafrica.com",
+          "title": "Numerous DAAD In-Country/In-Region Masters & PhD Scholarships 2026/2027 for Sub-Saharan African Students - After School Africa",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTnN6VV9pa3dzVUp3ZUJwUkpJX1JtX05nZ1VtVWg1blVQN1EyTzhXRzdYWHlLemt4d2pmZkJTSUU1ZGZvWk1QMWNkZjRjVFhMYnVPZy1iN0Q5YlEtaTZ0NUlINThCMzdDRkFWRWJSRWxjOXExMFExQnFha3p3NUJaNzN2SVRaUGJpaXhNS1RQTk1FQWxzZWc?oc=5",
           "lang": "EN-DE",
           "search_term": "CAPES DAAD cooperation research"
-        },
-        {
-          "date": "2026-04-02",
-          "title": "Confira oportunidades de editais, prêmios e formações para amazônidas em janeiro - Amazônia Vox",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZHh0UWJWQmx3dWoybGZVUF91S05Kd2MwZnh2dWpNY2FrR3ZLVm9NamxPQ1hnRGo2MXNOMUNwbFJRTEx2OUlqOGg0TzhuZTE1cE1fM2ZZSnhjelFERXFOZWQ2Tmg1WVI5Z1hTdTVSOUxsN1MwYnhZNzVWNVg0WXd6RDZCS0c5UW91OFJ0bEhJdjNsbk5yUTRqZnBnNWtISVg2TVVMSXJWT3gyems4eU1FOHNfYTdDbmRQMFdmbl94eGpsRTFmVW9KOVZDbEtoNkV3?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Brasil Alemanha cooperacao cientifica edital"
         }
       ]
     }
