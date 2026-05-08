@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "generated_at": "2026-05-07T09:36:30Z",
+    "generated_at": "2026-05-08T08:23:12Z",
     "period_days": 14,
     "version": "2.0"
   },
   "summary": {
-    "total_results": 33,
+    "total_results": 31,
     "categories_with_results": 5,
     "categories_empty": 3,
     "by_country": {
       "DE": 26,
-      "BR": 7,
+      "BR": 5,
       "other": 0
     },
     "by_language": {
-      "EN-DE": 13,
       "DE-DE": 13,
-      "PT-BR": 7
+      "EN-DE": 13,
+      "PT-BR": 5
     },
     "date_range": {
-      "newest": "2026-05-06",
-      "oldest": "2026-04-23"
+      "newest": "2026-05-07",
+      "oldest": "2026-04-24"
     }
   },
   "categories": {
@@ -30,13 +30,6 @@
       "total": 18,
       "items": [
         {
-          "date": "2026-05-06",
-          "title": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany) - DAAD - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ0lJOHNIczFjbC14TEFrZ1dGWEgzNVdiWV9oOGFqVmJWa0ItUTNGbW5BWkVXTzlFcWhJTmwzdGJxRW5CYWlpRkd4YjhuYmVtaTFiSVhJd3FXTXZhSWFsMDRtTGc1RjVyeEp1OUN5Vk9mMVNTalZyQm1CblFTSUdTNVBpTTZ4MTctZjRRNkZzN1ctWGhNNUs0TFlUeGVUR3A3RmxQbw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"artificial intelligence\" research"
-        },
-        {
           "date": "2026-05-05",
           "title": "3 PhD positions (m/f/d) in Sustainable Metallurgy (Experiment & Simulation) Vollpromotion - www.daad.de",
           "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxQRUpsc3RYcVBLYWJmSTE3QWxNbG9qMUh4cFBiUnZKVFRBSWRlQmo2WThzZXlnbmFXRFVlMndFemQzd3ktYVd5bm00Y1hyZ2FMd0JfV1pWWHAzS004ejBVbHpIdVRXMnF1VW13UDVWWWRtQUtOQkpSRzMzUzRXb1RoOXYzV3dsN3Z5NUxlbU5GOXY2ZWJDWDJZLVZncXFnY3F0aWQ4SHl3NFZSR3dET0JtMjdhMHhkZTJXVWhiZ3VFYlh2Rk5GSXRZY24tcGtuazB1YnNsaWtRRGM5cmlyWEt6WEtGRy1JcXR6a0VKT09NOHo5VTJoc09yTWw4RXY2ODFMQy02VUpnMjZ3YUlnWnN4UnAybXVPQjdJa0E4bjFmeDl1Q0NjbkRWT05yZ2VtRzIzTUtldDBOYzgwQzY3bmZYY0dkTHg2cUtzVy1kandkZDFxUzYwZ2pMR1FlYTFYZ09qa2YwTnlSWVl5MnNOckl2ZnFGV3A4ajZZaGNkYmh0RkpmSW1IV1M1cFFnWXR6TWpwWTAtTjRmNXBZTHM4Y3Z0a3hKUnQySzlSOThhZWZfUF90MGZUNXB3QUFxc09JLVk3dGtONFU2MUI?oc=5",
@@ -44,9 +37,9 @@
           "search_term": "site:daad.de sustainability scholarship"
         },
         {
-          "date": "2026-05-04",
-          "title": "Business Law - Employment Law and Personnel (part-time) part time - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOUFE3V2ZlZGxraTNIMTRxRjNUSmpxanM1SVVGNkxuZmJsdXJzVzZpejRUUmNJVGZNMzZDUlZ1T3V3SkJPYXJ4bUhfTzEySGZldTlxOVdPUEtMam9WV3FzOVdrdkt4YmNmWGFBd09uMTQ4TV8wS3hWdzYtcklxeEVwWmtzNG1ZcFNNX1dqQTNxcTZEZkJmZFFLaE9zT3MzWG5HY2tDM2Jpb1RuXzBRQ1dmRktGT19STWdtSUhFTlk1enIyalJSOTdJdXRRTWpOY3A4eHlRcFJzbWh6dUF2YWRyb2RwTWR5dlJaRUYxb3RhNGZOekRzdDZIVXJNMkhucjNwNTVpWk5SZmppNW9Od3M4SnpzUE9XbjdFUEVzcVUwUjNZaVc5bUlrREJJSlF2QUdnQUVYX1JMeGpKYldrdmFvQWQwcmNxNGZTLUc0V0JWb0RUNkdXMTRYaERPTUt1TXZxVkhkdURtTEdvNkJaVV9mOXFDNEg4VVZ4bnpsSFM4Tkp0b2hyQ3BfNUhLS2M0MjA?oc=5",
+          "date": "2026-05-05",
+          "title": "\"Four-Year Doctoral Scholarship in Collaboration with TU Eindhoven\" - Technical University of Munich TUM School of Computation, Information and Technology Prof. Dr. Stefan Wagner - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQTW9sNVhuN1lzTFIzUTF1WGJOT1pBSFRaMEpXTG9wRGhEOUYwc2pWN1pKdmo3SjVGQ3dWRWtnNHoySU5CcU1sbXE1cG84OFhTR3pxeEhFdDBUVHJ1ZVowSmY4VE5JMndHdXZPVWUzUGtWWEszUDdsNlJVeERwS2cxWG9SNXBOZG5MY2puLTA5TXZTVmZ5cXRycXl0OEtaUDRsZTBDQm9ISDNUZUNGMVpVcFJzM2FUZl9tQldtUUsyREVJcHRsYmE4VWJYamJxVXlhNTBDcHZqUFI4UmdXSjVHclM3cHRDc05aZVJVYWJFV2EtVXF3MGdJV2k5TzlTSlE5aFdhWTZrTG96V2t1LXljQmRzZzNyVE5ZUEVBdWVhaWo5a3JkZG5GZ2E2QUtKd1RhR2F0Z19FN0tTRjNMT2p3V3VtT1kyNW9Vb3QyT3RWeUN6SVZDYzFSNDBYNmdsdlRzLThFd0haYmYzYkFZd2t2MmE2X1NaQU1PWGljQVA0ZV9hSHM?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
         },
@@ -63,6 +56,20 @@
           "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQeU5oUEp1SEhkeXJVQVVXdVlyTDBvX2s4QVlCZWtwX1RiT0ZRSDZRdVFiaDB0Z1d1WUNRdVlvRWxGUTFzMm9FYU9BM3h2MkVzRmllSng3QVRiRUdCQ25iWUdHVkJVZW1heU40T09aUS1JQ3pJbWJONTBuemNlaUt2VV9oOUQwcm5YTkZCcHh3SzdXSjBFYnY3dDhnZGVCLV8xcFRhcnlTUUg1VTNad0JNVGJqeVBSOUJRQVhsR3NubXJCNlI4ajRTU2JaMnhlenRkTWdHeHhmNExyRVROOU1XY3JoMExSd2pVMjlXZE9TVlp0Sm5oNE1rT3JuaGZTampOamRIQWdKR1lTdlNVa1pQZjV5S0VsRWlz?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
+        },
+        {
+          "date": "2026-05-02",
+          "title": "Information for PhD students Weimar Triangle programme - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdXN3SDBKWDZjNEdERzVCWjdhTnloRXNZdEpLdVg0OW1LT1ZJZkM5MktGbFhETzVhYkFrRUd5NlEwX1NBSkp5WS1aOUNjYlA1UVAtYnk4OXBoVjBaU3B6MG9iWUUtcmhha3h6bFc4ZDJmRm1YVmtBXzVkbzYzN0VmWTd3?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:daad.de \"artificial intelligence\" research"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "GROW – Global Research Opportunities for the South - DAAD - Deutscher Akademischer Austauschdienst - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNlI1QU9XcDdiRDM0RV9VMDJ0aXVVOHJkME9sMmNzREV2d1cyNmpBVERTN3N5Q29CZTE3emxFMVBpT3ZJSEQyTEVEMVUyaWU1RXh0NFM1M0xhNmpFYlhIeGZtVllCTDJhanNxNTJPUzBLb21adVRDS0RHd0hmV1NXQ3E2Z3JLLXhKNUxkUFFYWnY2Uy1JNTlucGtNclNjbm0weVJRS1VFSEs4LUVWeDh2UFhxcWNYLTFYa1RLZGxvZjkwU2psbE5LdHBpaUxZU3h3WVpGSUh2M0VWQUhSOEd1MHNESlNJWFdMcFg4?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
         },
         {
           "date": "2026-04-30",
@@ -98,13 +105,6 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY0o4V2Q4djdWUFFnNXNDUnVaOWhqNnBaQ3owajhkb3p6bmN4Z3E2SjJORlJFZXkxZko5ckxGeFoyRjNaRHc2YWwxZ1ZsejNLbWxlRndMMWRPY180eS1Pd0pPbkRla0JiZHI3UlZYTmZOcXlzX1I3TGRqM184OGtZS2EwVzlVempWVG8wbzBOTjhHamowMFRoVWdreTc2bE5OdE1ETjhrbkZfOXRaWVlZcXZXN3hVQndiQXFoS0c4OVhwdDBCZ3c?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"climate change\" research"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Green Talents Award: Combining Tradition and Research - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOek1FSUZScEVJYW8wTHpJLVZocjEtd0JXb2tQbXoyamM5Y0lKMTlZMzY2ajctSHlZUnprRkpfVWJJbHB5SElleTkycEdqWlI1SjRSeVJwNkNFcmVMYXFWNURsd2hlR0M1clNlLWx3UjNNZFdBWXFOakZxQ0xzc2VCTTk0YWlNZVJFZDJjc0VCOEd3RlgyTlQ1eFBpYkJTZ2diczByUW1VU3BPU2pybHJKT1RQRHFrald5RjR1S1V6Y3lkam95azlQYWNicDRnbjhXUzF2QkdPRzFKRDVzdnc?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"climate change\" scholarship"
         },
         {
           "date": "2026-04-27",
@@ -160,8 +160,15 @@
     "DFG": {
       "icon": "🇩🇪",
       "label": "DFG (Alemanha)",
-      "total": 1,
+      "total": 2,
       "items": [
+        {
+          "date": "2026-04-30",
+          "title": "Knowledge Transfer - DFG - Deutsche Forschungsgemeinschaft",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0tFMk5ndE9yOHBVdEtfUHl4aENrLVoxczZiNVF6djdIdEV0bGJXUVFWeUFVSHBQOGFlTXZVdDk3WEwzNTAtdlpObktVZlZqb2I4ZUdHWEV6Z0daQWh6RU1Ka1QtS0dVUURNVll5MW1tM3JtTDNsVkdNbTdlMkhmRWh3?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:dfg.de \"sustainability\" research project"
+        },
         {
           "date": "2026-04-28",
           "title": "forschung – Ausgabe 1/2026 - DFG - Deutsche Forschungsgemeinschaft",
@@ -186,7 +193,7 @@
     "ThinkTanks": {
       "icon": "🏛️",
       "label": "Think Tanks & Organizacoes",
-      "total": 3,
+      "total": 2,
       "items": [
         {
           "date": "2026-04-30",
@@ -200,13 +207,6 @@
           "title": "3. Technologieumsetzung & Produktionsskalierung - Fraunhofer-Verbund Produktion",
           "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcnhZUU1MeTA0YWVNdEJZSjVqS3VwR0UyUHhoaFU1cE1DSUJta2VSU3EtdVZHMWI5VVJFMVFuV3ZucFBZSktoRGhYTkllYW40U1FkWklza2ZQczA2UXpVLXBqSFhuMEdDcUJDWkNPazlyMzRUWnB0NmVxb3pYNkFPUlF5RU5pcHRJcXZXNlZTRllyU3R5TDdTRjRXUGZRX09CTnNhR1NYa21HLUhSNG4zMVN0bEJlREFWQVNELVNhSExnem1qekU5SHJKaWtqSWhmSkNKTFpYQjcyaUhlTzNtVE5nejNVLWRDUU5FNXJaU2tQUWhYTkE?oc=5",
           "lang": "DE-DE",
-          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Decarbonization - IML Fraunhofer",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaThKb1ktR1RTckpJM2lYY29WUHZJQUg1UFhiSUNsNEc1QzdoZ0phdWVOdkRqTGUxZmxJUWRvbEhlWEF0VURGLWppaGR3V0dpek13N1lvVk4xSFRFczFqNUxlcG91RDV1NlpzQzhaVXpUdkwwb2M1alJSUUJueDRab3FhZnRHTG96cEpLSURPUVo3OGZSd3dPSXBHUndPUktrcGk4Q09rRkY0LWctUWVDVmxIWlhFakZJQXAwU1BtRktxZ1l6aWF2ZA?oc=5",
-          "lang": "EN-DE",
           "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
         }
       ]
@@ -237,9 +237,9 @@
           "search_term": "Germany \"sustainability\" research grant"
         },
         {
-          "date": "2026-04-24",
-          "title": "Request for Applications: Transatlantic Partnership Program (Germany) - fundsforNGOs",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDMxMjVvWlp6TWUxc25HdmtFeXdWT0dyeE0zN1BMaVI3SFlRV1dBcjNYRDNDaHltU2h3cmRBRlFRTjBHQVFDYUtEaVpKazM1Y2tlcHlzRFdQb3NTZmFUVURXS0NQdl9aTUc0elgyQVpGcWZKUko4cDFCNjlLNmNLdEd2NzN1TmZsZHAyMnFUS2l0ODYzRm5fNl9vQjJMTnFXamluTlJuTTV6WTlU0gGyAUFVX3lxTE5iNm42WHFPRFN0ZUgzdFlYMVpncTkxUTNzZDZmbzNRbHJjRHlJOEY5V1d0T3JOM3Z6WkxjM3dSSU5nV2RqcXFVc2t6aTRDU3d2QVRCSnk0ci04OGFaaG1jZC1sOFBaWFN0a2NyVFY4dXRuLXZYRWt2c29GX0pmRW1VQ3VxbUVZUGZncUVSdGtqMjRUWnpmT0IzbzJkY0hBTkxaTlh2bWZyQUZQd1Z1M3JveFE?oc=5",
+          "date": "2026-05-02",
+          "title": "Call for Applications: EPOS Scholarship for Sustainable Development Management (M.A.) 2027 - Global South Opportunities",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oUXVKNDF4bkM3R3hyMW1kbXJVQjJiZzhPbi1VTmdZV1NzR3B1eGJkWVpNOUxCMEhiRmNESWFOWnFJZE52cVRmNFY2d2ZWelFRYzFNM3ZGOFFwWjBBWnZmU2poWEFVNlVtSHdKczVpWHo1LUluV3c?oc=5",
           "lang": "EN-DE",
           "search_term": "Germany \"sustainable development\" postdoctoral fellowship"
         }
@@ -248,28 +248,21 @@
     "BR_Coop": {
       "icon": "🇧🇷",
       "label": "Cooperacao Brasil-Alemanha",
-      "total": 8,
+      "total": 6,
       "items": [
+        {
+          "date": "2026-05-07",
+          "title": "MCTI e União Europeia reforçam parceria estratégica em ciência, tecnologia e inovação - www.gov.br",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTlhTM3ZzRjlKTE80T1d2VTZ5ZWRzTVBKOGxTVHk2RExCTDJlTnpUVk9ZVnlrb0FpajM3WFJsalVvMnFYTTE5dlpENm5RZUxTRXJRczkydVpzbjVqVklRdmhvUGdiVW1aUENrQ3o5N2xnaTJ0RFloQ3FWMFRheTJkNXBMbG9ncDBDN2pmNFo2S0k0Y2VhdEFfa01mU2RwV25rWHEyZzVxUmdrSjF3eHczblZ1NVFMUV9MMUpJTHl4VzFEUkRLOExGQ19tZGxWZGFYbWdTWk5FV1NVRFZZOEY5UjRn?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Brasil Alemanha cooperacao cientifica edital"
+        },
         {
           "date": "2026-05-06",
           "title": "20 Years of Cooperation between the DFG and the São Paulo Research Foundation FAPESP - DFG - Deutsche Forschungsgemeinschaft",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaExLNUNIM3JuUWs1Rkl4LW5pUFVXWF9vVGNDSE5XUkdSWEI2aGJUeGtmTzM4UDhPTU9FTC1URmYtbm9VeUVDYnd1blAzU0hDWTg5aFdmenY0YTlZRDF1Mm5RU3ZVUFNBQjdGOEFTdkVpN0tIbUg1NUhsZER4cVpPM2o0NGROR3h1YmU4?oc=5",
           "lang": "DE-DE",
           "search_term": "FAPESP Germany research cooperation"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Pesquisadores cobram aceleração urgente da transição energética na Alemanha - O Cafezinho",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlNlcXVVcmdwUV94eXVZc1B0b2dwelBvcjJGNGRHSDJVMDVHUXc5SEQ4RnBTQVladnBYbXFSYTZyUDd2QmhCaVZZM240ZGNFWW9GbHZMZXdMQmh0M0RacGxNMEhiTGVEa2VaUlJ3ekswRWJRLTU4Q09pY3preGZ2TTVOYzUybnBQN3M2N0FpNFk3ZG9sZVZGYTVsaml1STFUNXhLNHFQa1FGbDVnQm1FSVhkeG7SAboBQVVfeXFMTlBNSktrZ3ZDZlBHck9COS0wTEVHdG16aTlnem5Rbk5XYzByT0UzcHJEZUlMMkJJS1cxeXMxdDhMWmJpdlpHZ3d4c2NnanFNLU10NkgxZjY2SF9EY2NvSFIzblBoQVNaakhOSlhRUjl6UlUzZDZ3QWkzYUszdzctbkxlTk4xcktDN0NzZktfRkRWZFI4em1wYndVRUlVUlJWODBwOGdBQ3A0bWgtazRfWUtwVUFQR3JCSGNR?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
-        },
-        {
-          "date": "2026-04-29",
-          "title": "Dezenas de milhares protestam na Alemanha por transição energética mais rápida - O Cafezinho",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZW9lZTdhaG95UEdvdHBRNFo1dlhvNUo4NDkzbjQ3MFAzQzFvXzNSTTIxdXJxdUNUY2pnVDh3cThuZmNNWUNaRWdib3dRdmx4T2dMOFpBU203TC1Nb2VOOTZYWm92TEhtdFFDaV82dFN6a3V2VXhOQWdpaXpkS0lETHdSd29tc18ydENXS0JKNDVhckJyd3RORlhMM2p0WUxsSHZqV2hhaVhUc0ZjMmdtbzVSNUM4czEz0gG-AUFVX3lxTE1yWXFNSmJSLUQ0Um5qTE1UdlJBM0hwWjVia0hMNnlGU3ZPbkcwdldSLVN4ZTNwZm1qS0xJeW9USmV0eGUtUWEtdzI0Z3c3THpRT2RYTHdQc2U0RWdheHVUcVY2UUVoeVdrSl9pMTJsVWgwS2Z2eUplMnhQNHNvWlpySFY4NlUzVFdhV3o5MFNsYkd1X001U25tSWthdXp2WG9pZWRlOWxJRlRrR0cwWkdFb1BEbVQ5UWNib2c1aVE?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
         },
         {
           "date": "2026-04-29",
@@ -287,24 +280,17 @@
         },
         {
           "date": "2026-04-24",
+          "title": "Exposição alemã sobre transição energética global segue na Unifor até o dia 4 de maio - G1",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQOFlKUE1pcmFMcm4yQlI2RUpSNmdUUG8tby1vcnI3NjR6QlNXT0tmbmVNeGUwbzdWWGxZcEIxQkVkVFYwcklxSGZHQ2VVczdxM0tZbTlEb1BEMWJfNnlUMjdlT0tsNmg2eFNZNVQ4bFpLS3ZCT3VaMFh3TGtiTW9yM2NGYy1CeDR6X1RfdVhTNkw5cHdtaXV1ZlUtVGt3WTF2MzN5TUZzQ1MxRk5wek41cTF2cDJmTF9iMTdJVV9RaWpvMGdwcWEzc3A2Snh5d0h2NlFkWnp5OTdvZGVvTFVPTlJOemFGM1ZOOGowLVVpN1F5Ymh1ckFFNGRnaDlnRHpzYXFnRGNCQmZ6QkV0MXp5TFJvbXktaEXSAaYCQVVfeXFMTlBSQ01PV3BkVnhpUWVfYzVtaTc3eVk3R2RGWTFsX240NnM5NEJPc1R3QVUta2FpOXhVV3pTQmZMOFkzZFdSNWRkTTEzVzhxY2NrMlFfZjZwSERPMW9kU21WS1N0NUtoNWZOcFViTlVibnM1emdZZ3RRaDF4bTVxQk9aSEUtQnB3MWRtQWdrOEt2S0s0SlNaTkp5Y2IxXzk4dnlUaWwyQ1o5S0E2SWVERkE0MWo3dHRldHp1QUdGRXppLWVaaXhoZWFZZmdmQUFodmJmN2RpS2pWMkJHYkhlRzhLMFZzOEk4VHhlMktvQ21OaDhoSGZCRlcxSXVwb2ZDdXZ1UUxZeW0ySVNqdk1NNU1Ma3BiQlVoNzZBcW9idGM1dGVuX2l3?oc=5",
+          "lang": "PT-BR",
+          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
+        },
+        {
+          "date": "2026-04-24",
           "title": "Brasil amplia parcerias internacionais em ciência e tecnologia durante missão na Europa - www.gov.br",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVEo3OXUwZEpIVzNOa0hWVjJVMF84OTN3M0pvaHhVNVhhZEtBNkJJQXlYQndFalFjN1kzYnBmU0l1R3ZRdTUtOHl3TnRoYzJXUWpFczRBbnJ3cmw2N3JxN2hyMHE2UmJUQXpUbk02VHkxd3c2bW5MNTA4VzFCeXBzcHdhMFV3bEo1NVFCOXVLNVNMMlFvRXROY3B0MTRhOE1pMENhNERRWEZGRFozakoxWmhyRGc3MzRDQmJUZ0Y0TlRiVlBJLTV5N1hYblRKTE4tT0N5cWFxQXlnT3VSUjlGLXEwUlVGQQ?oc=5",
           "lang": "PT-BR",
           "search_term": "Brasil Alemanha cooperacao cientifica edital"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Na Alemanha, governo do RS assina acordo de cooperação para atrair investimentos; veja detalhes - abcmais.com",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdnJJX19hdnhfbXdTNUxSV3AzdWtWQ051UXd5TkRybTVHQndqQXF1US1KYVF3WkF6Mi01NDlLUVloVmRaS3NkdV80TTM1Vl90ZW1uY1MybGh2cFlMSngxX21LdTktekp3ME1WY21lcG1VaTFMMWhmVVViWmFOZTc2a3N0aHhrTWZfVk4yU1ZEaDUtSnJ5cUpISDA5cFlVRkZjSFpYLWFNTHZXUFN5NHJCX0gwSnotOVZOU1dUd2FuM3NNRnhVM3c?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
-        },
-        {
-          "date": "2026-04-23",
-          "title": "Lula defende transição energética em feira na Alemanha - CNN Brasil",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMENmSmx6bGZ0ZWMxaDNxRkYwWjVaejR6Uy16NTZxcHJLUjdVdE55QWliRElXTGJqOFN0V0VzR2h3NEJJVEFXRk1iSnJuLXp2eko1N3NxaE5TaHZ5cklLai1ldE5xSG8wQUtaZGdMN2g2Mk53NnBOWnRrQWtxUWpCNFozSGtQZlJicVdBa3lhU3F5V2s?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
         }
       ]
     }
