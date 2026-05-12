@@ -1,41 +1,34 @@
 {
   "metadata": {
-    "generated_at": "2026-05-11T10:40:16Z",
+    "generated_at": "2026-05-12T09:44:07Z",
     "period_days": 14,
     "version": "2.0"
   },
   "summary": {
-    "total_results": 33,
+    "total_results": 31,
     "categories_with_results": 6,
     "categories_empty": 2,
     "by_country": {
       "DE": 27,
-      "BR": 6,
+      "BR": 4,
       "other": 0
     },
     "by_language": {
-      "EN-DE": 18,
-      "DE-DE": 9,
-      "PT-BR": 6
+      "DE-DE": 8,
+      "EN-DE": 19,
+      "PT-BR": 4
     },
     "date_range": {
-      "newest": "2026-05-10",
-      "oldest": "2026-04-27"
+      "newest": "2026-05-12",
+      "oldest": "2026-04-28"
     }
   },
   "categories": {
     "DAAD": {
       "icon": "🇩🇪",
       "label": "DAAD (Alemanha)",
-      "total": 14,
+      "total": 10,
       "items": [
-        {
-          "date": "2026-05-06",
-          "title": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany) - DAAD - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ0lJOHNIczFjbC14TEFrZ1dGWEgzNVdiWV9oOGFqVmJWa0ItUTNGbW5BWkVXTzlFcWhJTmwzdGJxRW5CYWlpRkd4YjhuYmVtaTFiSVhJd3FXTXZhSWFsMDRtTGc1RjVyeEp1OUN5Vk9mMVNTalZyQm1CblFTSUdTNVBpTTZ4MTctZjRRNkZzN1ctWGhNNUs0TFlUeGVUR3A3RmxQbw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"artificial intelligence\" research"
-        },
         {
           "date": "2026-05-05",
           "title": "3 PhD positions (m/f/d) in Sustainable Metallurgy (Experiment & Simulation) Vollpromotion - www.daad.de",
@@ -59,6 +52,13 @@
         },
         {
           "date": "2026-05-02",
+          "title": "Future Network Weimar Triangle - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02TjFlMWxYbmJpc0d3TDZjZFVRQV9OWVpfMVQ5b1h1VWpBTnNVMFFPM1hYUFVIcjhkTHd5enhiQjRkRXVWNmtVVDkzSjNhNXVHMnJjeUNlQ3EyX3ZuWmZzS0xZalptWXd2bU1EQTNrekc?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:daad.de \"artificial intelligence\" research"
+        },
+        {
+          "date": "2026-05-02",
           "title": "Information for PhD students Weimar Triangle programme - www.daad.de",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdXN3SDBKWDZjNEdERzVCWjdhTnloRXNZdEpLdVg0OW1LT1ZJZkM5MktGbFhETzVhYkFrRUd5NlEwX1NBSkp5WS1aOUNjYlA1UVAtYnk4OXBoVjBaU3B6MG9iWUUtcmhha3h6bFc4ZDJmRm1YVmtBXzVkbzYzN0VmWTd3?oc=5",
           "lang": "EN-DE",
@@ -70,6 +70,13 @@
           "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQZ00wQlIwRzhac0JkejMxQ01rRUFSb0JuMTl4bUZlQVE5Qi1yS0JVbk5SZVMyS2R0YXZPTVQ4NkZscUlaYU1LcW9Zc3RBYWh5V2MwbUZJenAwN1ZDZVNEWGprOW5Bem5lWC0tZXpmZDVlQURnSEwtdkd3a0ZETVczTmZ5dDB0TmN4MUZEQ2I0SzZtNldmNlNrbWQ2LXdYaFR0SWQ4WkJWUGUzQVkzaG1ISVJIbDdOaHVoZ1RlZnZBaDNOeVd5QlVpMXZ6NXlSTHZCMzNodnV1WUJUUVl2bGRoY0M5b2M0bVdJVkpSX1ZUaGJsQTZoZ2RidjgtU2FaUEtBcUpvRmpyczAyYmFLZ0lLNVRLRjNGaEwzejQ1d3p0YVJfT0ZjcDh3TjRuTGFOOUZYUTFYS3F0T0VXWU1WU3VOMEo0OEI0ZEF0X0ZBcnVBYw?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
+        },
+        {
+          "date": "2026-04-29",
+          "title": "In-Country/In-Region Scholarship Programme* Sub-Saharan Africa - static.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQ3JPTVpEUk9wRjJKNTdWblgxbVp4ODRYQUVxZkR3Rm90MXBjM2JteG9za2tKOTRKc2h1cjBQVjlaaEpvNUI3cUJRX3lnZ0lFcS0tRjZrTFdHaEt2Ymt6RmJhaGtfT2E4aWxGaFlNaGU2alEwOGNNUFVlVWlmanRFMkNESFRtSjJzbHBwZi1lQkt1X2dtQzhSOTQ0TFRQNlZuNUVORVlhak51cGhVaUIydWExdy1DcEpMS25ac3l2cndYZWloa25CMWgtdjV0Z0tMb01xcWZtQkRwajZpQVhTNUFoNHhSVGlhZlBOaWxvTGNENVJIQmc?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
         },
         {
           "date": "2026-04-28",
@@ -91,41 +98,6 @@
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GcUVYQkZZcHNsRmlWa2dTRU1RSnZTVVJUbzN1ZDdSdUI0UXd4TUdjUk01S05wbHJvWHVhNXI5Q1kxVmZFZEtfQnZPbjk0czZvY3VxLWFUVXFEUU5Vb0VwUmdLMjlGRFJuWDROUmNYVWY?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Global Diplomacy Lab: Conflict Resolution Through Climate Protection - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS2dWU0tybkxPVDRnaTZ4RmZ6R2RnbnRJZjhrY0NIMmVnRUt6QjdGTU9CUmtleGMxLWU5UnpqeE1oVmdiTU9jQ3pYcVFGODcyZXYzcXV0MVlqai0yR3E4c0F4MFByVGw2RlU5MzZpRW90dU5YTm1tSVF6a1dxR3RUTEFqY0FxZk95RGpTTXlNQ1p3Q1FTMXVlLW1GYnVmUjY0MTNTVUN3YkpVTHdrOHdHT1h2bXkxZWViZVVMcW5OLVJxRElRbHlXZHZZcUZqTmlNRjBOaFhKaTFwLVAwUG9vakY1UHBYdDd4NVhJeEJBUVJJZw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"climate change\" research"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Artificial Glaciers in the Himalayas: A Solution To the Water Crisis? - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY0o4V2Q4djdWUFFnNXNDUnVaOWhqNnBaQ3owajhkb3p6bmN4Z3E2SjJORlJFZXkxZko5ckxGeFoyRjNaRHc2YWwxZ1ZsejNLbWxlRndMMWRPY180eS1Pd0pPbkRla0JiZHI3UlZYTmZOcXlzX1I3TGRqM184OGtZS2EwVzlVempWVG8wbzBOTjhHamowMFRoVWdreTc2bE5OdE1ETjhrbkZfOXRaWVlZcXZXN3hVQndiQXFoS0c4OVhwdDBCZ3c?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"climate change\" research"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Green Talents Award: Combining Tradition and Research - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOek1FSUZScEVJYW8wTHpJLVZocjEtd0JXb2tQbXoyamM5Y0lKMTlZMzY2ajctSHlZUnprRkpfVWJJbHB5SElleTkycEdqWlI1SjRSeVJwNkNFcmVMYXFWNURsd2hlR0M1clNlLWx3UjNNZFdBWXFOakZxQ0xzc2VCTTk0YWlNZVJFZDJjc0VCOEd3RlgyTlQ1eFBpYkJTZ2diczByUW1VU3BPU2pybHJKT1RQRHFrald5RjR1S1V6Y3lkam95azlQYWNicDRnbjhXUzF2QkdPRzFKRDVzdnc?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"climate change\" scholarship"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Green Talents Award: Tradition und Forschung verbinden - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTjFhNkFzN0F3YjNlTlJoYWw3RUpKdUFSR2Q3QzVwUE52aUd4cXhITS02N0tJMURGUVNDQTBRZTBhZnZwaWQtUFZkRFdvcm9pUS1FN05DU2cwa3VWVlItM0FKLXFOMDM5d0NTUFVWQ1JJOWFWckFEZjRGS0JPMmpRbVAwNkpibkRhY3Q3bUlnMUdaeU45RjhmdlhQVXZpMmRjTV9FNG9qYlhpeFFlQlRYWHFEUTUtYnJVTEg2N1dYVW54WnVfS2xiZm84UmRiLVl5RHVUX25RT28?oc=5",
-          "lang": "DE-DE",
-          "search_term": "site:daad.de \"sustainable development\" research"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "Green Talents Award: die Nöte der Bauern lindern - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRVMtS1JzZFBaamFsZmJ5VzZlRlR6YzVVVmhzbUxqazBmS0JYcEltUXdxd3huaHNsTHdVODJzS2lKWnVWQmdpZG5NbkVoTDRKT19Ld29KcFcyS1dLNUNkc29EV2tLMGM0eGw1NjZJb3lHMWFsa0JtS18tTHdYeDA1ZXBGSnFZOW9ONDcwZFlfcGRaWU5JbUNndFhRbUxNdy16dk5OUTFHYmFJWW5ZVE9CdjlpaGxyRWxOUXBvS3NhTmJBWlo4OVV5b3MwV080b0Q3?oc=5",
-          "lang": "DE-DE",
-          "search_term": "site:daad.de Nachhaltigkeit Forschung"
         }
       ]
     },
@@ -181,28 +153,49 @@
     "Humboldt": {
       "icon": "🇩🇪",
       "label": "Humboldt Foundation (Alemanha)",
-      "total": 1,
-      "items": [
-        {
-          "date": "2026-05-10",
-          "title": "Dr. Corine Sinsin - Humboldt-Stiftung",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWjljY2g1LWhaaFo4UFlaNHJaT1BJWXZxRnNZZVZpMmNUOE02OXY2RnA5N0RLd3EzTXVyaFpBemotazYtYkFLYlFCdFRBbXg4VDdBdHJHcXZGTDVXd2FRSDZjUVh6djFYeEZJaFhPUHdWSHFGbF9WdWQ1RFJ0dHRFZ2RIM2RiMEtjYmtQV1REaWo5b1hyUndNc1FBUFpOTzZUaDBfdGN2WXRhUlFmeHNvMUVvODMxd0JDU056WGVTY3hWYWIwRzBLNlZWcGJnOE5xZkMydEp1SGxfU25yM1c0X2wwNi0tS0VENVhlWmtoX0YxZmJlRmZESHdR?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:humboldt-foundation.de \"climate change\" fellowship"
-        }
-      ]
+      "total": 0,
+      "items": []
     },
     "BMBF_UBA": {
       "icon": "🇩🇪",
       "label": "BMBF & UBA (Alemanha)",
-      "total": 0,
-      "items": []
+      "total": 1,
+      "items": [
+        {
+          "date": "2026-05-06",
+          "title": "Marktdaten: Sonstige Konsumgüter - Umweltbundesamt",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOc2dpTER5NjAySXV6SUFJcHVFa29ybUxVRVNRQmxYUTlHT0RNVXUya1A2SGJoMUNsU0Y3eERMMHFseDREekVtVWZPRHV2OTQ3MGVCd1FFQjY1d1JDS3RvdXRXYS1tZk1tWVRSU1Mwd1N1TlB3eUdGcXFiLVk5bFJJYkRiRGQzczFLa3hJd1AzVllKYnJtOHRobHhSaVJhSUh6REhwY29GNmhsNWFsT2c3elZWTTMtdFUxSUM2TS1BaU9xd0JaN2lKLTdRVTlvYm9RNGU5VmI0SGRFQkZUc2RDeFhqZUxIOGJ1QV82VWhXaXk?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:umweltbundesamt.de Klimawandel Forschung"
+        }
+      ]
     },
     "ThinkTanks": {
       "icon": "🏛️",
       "label": "Think Tanks & Organizacoes",
-      "total": 3,
+      "total": 6,
       "items": [
+        {
+          "date": "2026-05-10",
+          "title": "MOIRA – Unsicherheitsbewusste Diagnose für Zustandsüberwachung im Betrieb - Fraunhofer LBF",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbnM2TEluV01ldmRiYXhLSS1JODFSdnp1aFVNT1BqY3dxZkFVUnFtM0NMNUl4Q2ltdWVIQmstbTNLNzF4WDF5R05IVVBXSjkyWGpLNFFqcmwtUkotM2xBWnlmZXlFTkRXYW96VUx4ZGNVRmR1Y1dWRDAta0hWaHFfRzQ3TmNTck13NXcxOGJ0bXQ3NUtBWl96cS1fR1IxbHY2enFyMVBnWDhBcW9EUHA2RlNiekNlUnJUeFI2SDNkNA?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Policy Recommendation on Digitalisation of International Freight Transport Connectivity - itf-oecd.org",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd3JOczB2WnFJSXZ5a1hHQWpHbUNxMnpxcjBXTVZPTEVhaUJrT2pUUVhhMlpuMVhYV19xNHJyQjVFdTBZNXpLemRVYktUOHgwUktEZGEwckhlMms0M1ZLRUdiZnMwajA3QkhVV1BvbHBPaU83MmhRNjlORUI1QmtmcXN5VVRaQjlLRkRQcDV5MjlMWUlmX1R2YWJPdzdGOERZWURkeHFMS0VYb09ROFB2VDgxQVg2R2FyOE5XWTlxS3RWUHd4NTdiTDRqMmJZdkpz?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:itf-oecd.org \"maritime\" OR \"shipping\" OR \"port\""
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Energy-Efficient Hospital: GreenHET – Green Hospital Energy Twin - IML Fraunhofer",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUDBXQnA4WlU5eWhXVFlkSVkzOTJteGtnVEFweDZfY24ycUxxV3B0UU1WY1NYTFg3dUZlRFo3dTlNM0dJQXlRVGtIakRQSlJDQTBmTEQ2dW50VGF2ODRpZzlCQ2c2RU1vVzdDbHYxN0VzUWhwQVZhbFdub0xIWUxQX2drYm9uSnRiRlEzczdxcw?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
+        },
         {
           "date": "2026-04-30",
           "title": "CASTN: Efficient Carton Set Optimization for Logistics and Retail - IML Fraunhofer",
@@ -235,8 +228,15 @@
     "Geral_DE": {
       "icon": "🔍",
       "label": "Geral Alemanha",
-      "total": 2,
+      "total": 3,
       "items": [
+        {
+          "date": "2026-05-12",
+          "title": "Patna Woman Scientist Receives International Award For Revolutionary Green Energy Research - Patna Press",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdzdFaXpZcTREblJ6T0tTZmc3ckxwcFpKdElBa2VWT21SN3VadmpMNGpRaEZLWXN0RWhXYWZJd2tTdy1tSnZiZDZIT1kza1QzTWp1aHBpbUx2N0NrSVRmSkFCaHdXQ0ZUNlliZ1locnp4Ym9YYzNSdnZmMmlYSGJoRG1kSnhfUQ?oc=5",
+          "lang": "EN-DE",
+          "search_term": "Germany \"sustainability\" research grant"
+        },
         {
           "date": "2026-05-06",
           "title": "UNFCCC CAPACITY Fellowship Programme 2026 for mid-career professionals (EUR 4500 Monthly Stipend & Fully Funded to Bonn, Germany) - Opportunities For Africans",
@@ -256,7 +256,7 @@
     "BR_Coop": {
       "icon": "🇧🇷",
       "label": "Cooperacao Brasil-Alemanha",
-      "total": 7,
+      "total": 5,
       "items": [
         {
           "date": "2026-05-07",
@@ -271,13 +271,6 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaExLNUNIM3JuUWs1Rkl4LW5pUFVXWF9vVGNDSE5XUkdSWEI2aGJUeGtmTzM4UDhPTU9FTC1URmYtbm9VeUVDYnd1blAzU0hDWTg5aFdmenY0YTlZRDF1Mm5RU3ZVUFNBQjdGOEFTdkVpN0tIbUg1NUhsZER4cVpPM2o0NGROR3h1YmU4?oc=5",
           "lang": "DE-DE",
           "search_term": "FAPESP Germany research cooperation"
-        },
-        {
-          "date": "2026-05-04",
-          "title": "Unifor recebe exposição da Alemanha sobre transição energética global - Unifor",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGdaU1RGV2c2NHcxSmtwdXZJNjVMNzdaZEZaelA2cThIN2Z2UWlHbG92NXZYZGJVbzMzYm03bUJsZlBhcmoyNDVNTmtPSTdPd0tsNVpLR1FqVHNLMUpHQ0F4dU92dEdTbExPTHdwUS1wNlBuMDVORjQwTGF5eE5DSmNILVBLak44S3ZHYU5YZXZUejE1WVE?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Alemanha \"transicao energetica\" oportunidades de pesquisa"
         },
         {
           "date": "2026-04-29",
@@ -299,13 +292,6 @@
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzluV1F1dXFsOWhuUVo2RTE5Qno5TkJHVnI2d3F5N25meHQ1QXBGbTRlZ1Y1SFhwOWFqVTJkeXlZeEZjSmpiN3NrSzI5cmZuSHVFNmRYbDRFOUtLWVJBNGhMRy1adU5ILWZ5a1BacHY4U1NfSkVRMGpWTXpFT2pxd1BfS0NtX1RrMGJFbXltMERaalNWMUdBVG1Ta0U0b3FzOWhBMENfS19xaFFWYlI4NUlnTzFRT1hCV19SVmowSW41amtzNUZv?oc=5",
           "lang": "PT-BR",
           "search_term": "Brasil Alemanha cooperacao cientifica edital"
-        },
-        {
-          "date": "2026-04-27",
-          "title": "INPE participa de reunião da Comissão Mista Brasil-Alemanha em Berlim e reforça parceria na missão espacial CO2Image - www.gov.br",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNUlpGblZDcjBtT1d0S0VSRTV5aTZORkpBVzRIVlZBVVNYUkxCcDU4X3lSODNSWWVvcjhHWGVNaFY1RlZTQVU1NDB3dnV3X0pmNnJXbUYzU1Q1b3hERnFFWmlhODVrVURqajltckRvTk1DNGFHQUhsbUszd3hSeTNXQ2ZnRW51eUhGVXU0cHRRMGhyd0pEck9vTlVRU0dieXdiYk1mY2ZLcnhkREJaUWktTWVyaGVSY1VvNk9MWDZkanUzUHNLZDROWTh3U0QxUDg0QUhENVEtVVV1MVN5ZWtOYjZhVXJhREdLdUh0UkdaTmN6NVcwTGM5ZzZ2RERkYktSZEE?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
         }
       ]
     }
