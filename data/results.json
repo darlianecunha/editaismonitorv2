@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "generated_at": "2026-05-23T09:04:06Z",
+    "generated_at": "2026-05-24T09:23:07Z",
     "period_days": 14,
     "version": "2.0"
   },
   "summary": {
-    "total_results": 36,
-    "categories_with_results": 5,
-    "categories_empty": 3,
+    "total_results": 41,
+    "categories_with_results": 6,
+    "categories_empty": 2,
     "by_country": {
-      "DE": 31,
-      "BR": 5,
+      "DE": 37,
+      "BR": 4,
       "other": 0
     },
     "by_language": {
-      "DE-DE": 19,
-      "EN-DE": 12,
-      "PT-BR": 5
+      "DE-DE": 26,
+      "EN-DE": 11,
+      "PT-BR": 4
     },
     "date_range": {
-      "newest": "2026-05-22",
+      "newest": "2026-05-23",
       "oldest": "2026-05-11"
     }
   },
@@ -27,19 +27,33 @@
     "DAAD": {
       "icon": "🇩🇪",
       "label": "DAAD (Alemanha)",
-      "total": 21,
+      "total": 25,
       "items": [
         {
-          "date": "2026-05-22",
-          "title": "\"Battery Technologies\" (Master) in Deutschland studieren - Hochschule für Angewandte Wissenschaften Kiel - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUTFEMHVlWDA3V1VSZm5fWnE1Y1FlT3dFZHM1dzlRa2QtZFpZcUpsZ2lRRklEdDFXaGttM1k0ZktadE02cTZwWExZNjVEMXZ3MHNqa0YzdXdBd1d0U29kYzc1MkJUeGVWR3dxUkZidzIyc0I4b1pkTHRCd2tTYjFPcE9WQnFOMnRfZ0lZc3A4djRvRDY4QmRneC1EMkpnNWs0Qmp2WUI3UnB6NnJqREY1czdPWGlKbHNsbjdmWi1yWmlyb1hPalMwR1JSOHQzTE5IOFpPOVhTMTRlU1JPaHFnOEZoUHJtUUVZcWxCM0g3b25STlFDOVVxTjZTQU53ZzdTSHNfQ05R?oc=5",
+          "date": "2026-05-23",
+          "title": "\"Umwelttechnik\" (Bachelor) in Deutschland studieren - Hochschule Bremen - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN0UwNkh6STBPZzBNVG9mTVJJdFlxakt1RnBXalpEenVGazZOZmRaVHNzWm51bEFzUTVNWDZlbzhTWGRBemlzT3YzcHVVN2U1RFBNU3plX1F0LV81MVp2ZVZ0VjloQlBDVFQ1c1pReW5uSWJxMExxNUdDUHA3WmQyUnFwNjdvODRROGFCelNUcTI2N2ZLUUZEaFFJaFk4Vl9VX3VnMjhQYk1DRlcyODdvcUI0TDZhUmh1WWZjUzFqdlFnQUdlMlpHT1YwcDNkbzZteVhmZ3hn?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
         },
         {
+          "date": "2026-05-23",
+          "title": "\"Artificial Intelligence Aided Mobility Design\" (Master) in Deutschland studieren - Hochschule für angewandte Wissenschaften Hof - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNYVdiY1ZkbXdoeXoyeEphRDdzT052eXY1LXNBQXM5anNmSmlNdmxHVW1hUGFIb0trb2xIU1NSMlpialRLRGcxajBFcURGWldaQlBvTE85UlpEMDdJVTFKcWhxaWNLVjBsSVYwLXJUVk83MURxT1ppSFdiM093bllIc1lJUHVhcjIybjVZZVpPTmxkVGRqQWVNRURuQnJad1RiWmlDdUFlN0JNS3B6WUJMa0p0cjc3eEZTaElPb1FJZWx0aW5KZXhOUEFEWU9haE9mNDVublBxQ25aejFTZkdXTGJHVVpfM3ZoNUdSZElaWG55YnUzZ05LYVotTGhGcEJ6ZS1YMm5GWFNoOHZRb1V6djJibzhiQnBneFB6VFh3TE5TZ1hNRUF2VEUwNUpOMnEwVEZfQXhjNkJGb1psMW05R2g5RGNOUzhWOUlseU5qeU9NLWFyZkE?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"artificial intelligence\" research"
+        },
+        {
           "date": "2026-05-22",
-          "title": "\"Umwelttechnik\" (Bachelor) in Deutschland studieren - Hochschule Bremen - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQWDNmRi1NZV9tdV9LalhxOEFXM0JtdkozeE9VbEhzVThZSndlVjRxaktKQWFqYnN5ZlhENDVsamVXQzJ3enY2VWlGaVdHdlRGZlpzdkhQaTBRU1MxbmdERnJ6NnVIeGwzWmFSNEN3TjdMemZ2eC1vT2RlNzY3S3RyeTVvR1NXMUM0SG9sQ2E1SjJXNTFoSHlBaHBabzNVUmZxZERrQ0t4V0szY2NTN3hrbV9zMEZiVFAyYTVrU1NJbnhzb1p2c0UtaE5GNXpxODFtd1pkN2Y3RmR5VXBscXBmZl90azJuR3JNY3JXVEMyc0NKajYwblVaY3BFNk9PYWJCejFKbnZ2MVRIbXhNR1hhMGVkRkdwZW4zenZHMFR1SHFWelE5LUJOUUszWDI?oc=5",
+          "title": "\"Deutsch als Fremd- und Zweitsprache\" (Master) in Deutschland studieren - Philipps-Universität Marburg - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOa09Ja3VBZzBQdFZhOEVvWFhheElXM0tvNFA2TUpWYmh3M1Z4RVNUS3RySWtJVWpCVmFLZTNaM1k0QVNxbjdXZ3RvVWxEZ1NFNDE2WDNOdkdKZWZlWktwamlYa0t2dERONDB3d28wclg5UGdvNXM4QXZHVXBuN09HTDVyTVpva0liaEc5UW5Qa3M0bXcycGtUWGJZdFRLc3RpTjJyR01YWmt3TG9GZWVjUHB5SEc2M2hxWUNoV1NYV0lrQTMzU242QUI3ek56WUxRUWZpVGpIR0lUS0dFRmRxV2VwUFptNDAtb0pJTmNWM3NWMjh0ZDduZ1pIU3VMMFBVaUE?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "\"Battery Technologies\" (Master) in Deutschland studieren - Hochschule für Angewandte Wissenschaften Kiel - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUTFEMHVlWDA3V1VSZm5fWnE1Y1FlT3dFZHM1dzlRa2QtZFpZcUpsZ2lRRklEdDFXaGttM1k0ZktadE02cTZwWExZNjVEMXZ3MHNqa0YzdXdBd1d0U29kYzc1MkJUeGVWR3dxUkZidzIyc0I4b1pkTHRCd2tTYjFPcE9WQnFOMnRfZ0lZc3A4djRvRDY4QmRneC1EMkpnNWs0Qmp2WUI3UnB6NnJqREY1czdPWGlKbHNsbjdmWi1yWmlyb1hPalMwR1JSOHQzTE5IOFpPOVhTMTRlU1JPaHFnOEZoUHJtUUVZcWxCM0g3b25STlFDOVVxTjZTQU53ZzdTSHNfQ05R?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
         },
@@ -65,6 +79,20 @@
           "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
         },
         {
+          "date": "2026-05-22",
+          "title": "\"Biologie (Lehramt an Gymnasien, Regionalen Schulen und Gesamtschulen)\" (Staatsexamen) in Deutschland studieren - Universität Rostock - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQNlpBeGJUTjVjRXk3YzFUUFhuSjJja3ZhNTNDVzJ1MzdqVkdUdVlTM1hEeVF0a19PQ0F5UjBUeFBUa0NGcllzR1FxcXpxNzZHQUFUdExnQ3QwX01IMGhMaFd0WGNibjlaajVCSkdJN2Z1cGpyWFBPMEduX25ZaUU1YjFkZTBRN3pXMFJKTVJlWERFUGJtUzJhN3M5bHFVNjRkNHBVZmM5V3VOZzZROHBQNmFkSHVKYS1vNEN5UHdreGJHUFdxQ2RyWEJxVFBNX2Jlc2VqYTY4NjRhb3o3WnhxeV9zdE93SWlZUUNEd0NrdktRNFJQc0xnendEZkFCR0pSMWdEcHV4ZEZ6eGhJVWhIN1JJem5aUmFVbEgtakhWSmozSElXUkE?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
+        },
+        {
+          "date": "2026-05-22",
+          "title": "\"Sport (Lehramt Sonderpädagogik an Regionalen Schulen, Gesamtschulen und Förderschulen)\" (Staatsexamen) in Deutschland studieren - Universität Rostock - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQal9NdjRrdDY2ZElMNDBlNmFRVC0yUVVCakhkeEZpN3NhWG5WRElHSElWUFN2MXhDOUQ0ZlcxOVNOMmZLczdRMFd1R0w4NHBOVnpQcmlCUk5XNWFfRGFBWkJvbnZzQUFlMFJ5OWRyRVNXSXk3RGZfb0kyVGF0N09lLWZJcTVMUHJwUVNjWHdkdkxNQWJKRkgzVzdRMEhaNDd0UGZyWVNQbWcwOHNpZ2dzWnYwclhmTElKUXZTVGFCRThZWmlzWXJWWjQ4OUFESFh3RVp0UFRGSG5MVlNSbklFOGhfWldpQnlxOW5uSzhJeXlIcEdkc0xKaklLd3dLSVIzQXFjTFh5WDFCQUc4RzUwcV9HU2gyNGlwZm5TMFdiUWVpRjh1YWhVNlhDT2VfWWEzMHpXQXpFU2JPMDRWTWw4?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
+        },
+        {
           "date": "2026-05-21",
           "title": "DAAD-Alumnivereine im Porträt - www.daad.de",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObW9WS1B1OVpqd1luZTZPNW1BTWFLVDVwTFo4Y1UtWFQ5SE5kXzU3Y1BadVNmbE9oZzZxc1lWdTVpTl91Z2FLdmJVNWVKUHo3QmNpOFdjOXBwdWgzcUJfM3dDU1BHMkY2NHZDeE1TWnlsLTBlYWdQS0JKSDA4M0FBNEtmZEdlSkxRUGx2US1KMllnZw?oc=5",
@@ -80,6 +108,13 @@
         },
         {
           "date": "2026-05-21",
+          "title": "Study \"Languages and Cultures of Europe\" (Master) in Germany - Catholic University in Eichstätt - Ingolstadt - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRFVVWTUwaXBOZ2g1RGJucE5SOVF2WHd5bjNjTjFfbWY4RzRidm5xcWNicVlzUmxWZDhsZGp2WGZnM3lPcnVLanhwVjY5R2RPdTVTNmE0SlFCYUIySHYwS0dtZDNLME9yR0VERjYyOEV1eFhtU3hwbm5xckJYS1NWdUkzTXFjdXBTMmpxNW9HQ2lFOW9hbEJKRy03a1ZuNzQtcVVVcE10enY3MUFnOHVtZzFvNHJ2WVhyQnBiZl9sOS1HV2FEQmpJWXdNanBfY2pmUS0xRGV4TlpCSWhWaXN1ZlFOcWNFOFBNVE1kSmswZXB0UmdmUllHNDRlZlJ5dTRxUEtQRmduVUhLZnFoa29rNEh3?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
+        },
+        {
+          "date": "2026-05-21",
           "title": "\"Erziehungswissenschaft\" (Bachelor) in Deutschland studieren - Philipps-Universität Marburg - www.daad.de",
           "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbkgzSXFWX2IwbEV4Tk9hTlJvMnNxc29DZDZLN3RwMlVxNUdoNC1feGk1ZnhZekdvRVNyWi1mUEpVcXZVc3FLNjBVOFJFU3NRYmc2d2R2eGhsTjJPZzRhNm83d1kwbEs0aEItamhhRHB1XzVvZmhXX2ZZTmRkY01nMWJrZUlXaFY4SUI4RGs0c0w3OU9sTEtsMm5Lb1ZFY1o2UEFfb1hKaWg0SlJ3Sm1xVlZBNS1CRGM2dFFrYTBKdDZSdFZPMzBGdV82NVF1dUd2c2Z4NWdnYUppVW9pWHM4UWgyNkZES0dWVTV0UUZFSmRzMnJCUGo0?oc=5",
           "lang": "DE-DE",
@@ -87,8 +122,15 @@
         },
         {
           "date": "2026-05-21",
-          "title": "\"Klimagerechtes Planen und Bauen\" (Master) in Deutschland studieren - Hochschule für Angewandte Wissenschaften Kiel - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNLU5rX2p2S2U2bnRza3hweFE2YzZlZUpob1NfcUpacWZrOVNMSzZMRUVQWTY3WHF1NVRQTUcxOS1oSWVBTk9RU0R6QTNmMlpHRnBQRmdMR0NRWUk2VWVoMXJmN1k0QnFRTUx6Q25pSkFDc3BMeHdJWXc0ejM1VFFLWmo5d1V0RG4tdUJLNXUwYjhXd2Jrd1p3LWYyWVJqUnBmaGg0bldXSkJKVmJuX3d4TU1XQjRqVTFYMUJ0Q252cXJzOVVRV1VqaWtIQWZLa3lBUF8yWkN5NWliMVdLZk4xMV9pQk1WSk5sZ3g1YklRMWwydFZYMThQWklQNWxGaWI1enpzQnB0X3lFNkJhQldVSmVtLV8?oc=5",
+          "title": "Federal Ministry of Education and Research: Digital GreenTalents Award - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQbjRVQkhGdTJGc2xSZEhoUW1SaVF0V3RtdUIxRWdPcEVnSVRKc2ZOZmMzM2xxUDBNRE1lNGh5U3VNNzRjMVc2Y3dVRDlSRGZZTDhCS3E5Y2RuS2JLMFdiSUxUa3lRWTgwVHBvWmtJT1lnTHM4SnNteFVja2RWT1Fsb19LNld6TE9DdkxCTHJYQUtqTkJxa2liYjVuUXE3cXpwX0dybGtqV0ExcXVGV2g5OE5tSmg2S0l0NnVpNnRHOVhRMmlBa2FtcWFhX2tHX2FQWDhoVlRsTjgyV2RQQ1dXaUFvZ2htanRQU0NiWU9PQUMyaDg?oc=5",
+          "lang": "EN-DE",
+          "search_term": "site:daad.de \"sustainable development\" research"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "\"Cybersicherheit\" (Bachelor) in Deutschland studieren - Hochschule für Angewandte Wissenschaften Kiel - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPQmJ4dTZURzAtNHlEWVFCVkdKY05fYmNMbFFySEo3RTI4c3cyNVM2RjBLRmZXUWp3VDF3TnprZ3N3SGdKZEJabTJ4amF5azNacWZVOThRMDRfNTlmLTlKVDlyYU1IbUVrZHJSMkZGODFpQ19JU1B1aGFsSUJseW5rSVJTR0VzWVNiMERCa3doTzI0V05aaFJWSmxRaVYzUzVpRXp4dWJMWVo0RVl4cG9EOFoyQjdpMC1nRWwzdGNJd2lZYlpJcXJNOXdVcnhheGFKYmRKZkQ2VTBscFRtTmJ6QjBLeV9EdW01NmFSc0tXd1VsdWhpaTBhOFJvcFA0VzlRU2VRVQ?oc=5",
           "lang": "DE-DE",
           "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
         },
@@ -104,7 +146,7 @@
           "title": "DAAD Jahresbericht 2025 - static.daad.de",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRDVQUzZZR09CTzNNYUo1aVA1NmhDQVM4b2FzN2xkZDZEX2pITkFrb1FaeEZSNG5YQ0lrUGJ4VWZScnZ6SmROSERyVG9JQ0xVTGFqamVCZEtNYWVqRVZNZ0xxb2JBbVV5c1RVS09NMmgtWWZRdW9laVo3ZHZxSVdMdHdjcXk0TmNEMnplTE5mR0lLSEkxV1l6a2FXSGRLZEppZlNoUDlNci1NR19rQmRxNkZLVkV6djJGTVRadU5xcklUbnF4?oc=5",
           "lang": "DE-DE",
-          "search_term": "site:daad.de sustainability scholarship"
+          "search_term": "site:daad.de Klimawandel Forschung"
         },
         {
           "date": "2026-05-18",
@@ -121,18 +163,11 @@
           "search_term": "site:daad.de \"artificial intelligence\" research"
         },
         {
-          "date": "2026-05-17",
-          "title": "Federal Ministry of Education and Research: Digital GreenTalents Award - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcEtVX09LcjBTcy1EZkdES3lHVjBUU3Y1ZTJLZ29YYXNadFRROWlQcVVoSmZlRlhqSkFHdWlRbXpGTS00TXJWUF8yREFqbjdRX1lYVzhWSmdhMFpvRV9VUDlHQ3hUQVpra1pFRlhlcDFmR1lqRGFsVG5mM0ttdTNPd3laY0ZhY0hraFliRUZkdmVLblZ4MWxYM0NSOW5SaUlGVHJrYTdWR2ttS0IteldhN0JVSHFUa1hFZ1JfbUJmOWttWVF1UWducXhFMUNDQjdLTzBhajdpdnJIZmRQenJiSjhqc1NvdDZSTElUWk8weWEyVHc?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"sustainable development\" research"
-        },
-        {
-          "date": "2026-05-17",
-          "title": "In-Country/In Region Scholarships Programme at AIT - DAAD - Deutscher Akademischer Austauschdienst - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMnR4UU1GbGJmd1E0S1NHYjh1emZ2RjN2ZzVVakJhSHNlNGg3OGhVQUZZQzNWSDA1bW1ITmhqRkJjWFFjRnJ3WVB3Z1NFa01KV0lWM01qLUFsNWNaZV9Vek9aSHBRRWFXcXJPUFJZb0lMNlo3Nmw5WjFaakF3ZDI3a0x6SU1HNmpRTWhxQkZUQVRpS3laamxvSGE4SjdoaVNpVHp5M2NSWDlzVU9wNnpabjVpeHVwV0ZEWE1oN1ZUU0lzbTZ0ZHdEcWtrSUJ0QUxwaDdDOUhZSWR6T3RrNTBSQmtraF9YSzJINXlmNGtwTGd3Zw?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:daad.de \"sustainable development\" research"
+          "date": "2026-05-18",
+          "title": "\"Psychology and Society (Nebenfach)\" (Bachelor) in Deutschland studieren - Leuphana Universität Lüneburg - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQWVBIWHE4N3VIVzI2UGIwS0pxX2FPclp1S1draDduck92eXBLek1BY3FPR1plN1pGZlhzcWJEWjRTWG9Cby1DWUw2aGl0dTMxQW9rV1Q3TFdYbXlMVjZKcGhELXBEdGFOS2xEZEJrNWt6c1dlNnZfdnZsRWh4WDBhSENlSjI0cVVOTjZENlFGazF6eS1SM3FSY3JqbGpvNFhOMjZYNkRwRDUyRDlVVHdOTnZVSjBJdDBFRDRmMVBFTDdQN3VOM0RDOW1lZ1ZDLWJ2UUljV1VIY29RWC1pWC1HQTU4Z253VDlEZmdqeG5ySm5lVjBvdW02bVR1elZwM3AxMkhUcUV0Y0o3WkU5eHBVV25pWTlVZkg0TF9TT1RTMHdVWTM1emJ0c3o1TWJYU1lvaWpxQkNCc1UwQ2k5eTRTQ3ExNXd2cXdxRHpmUEFVNEZQT3d3aEZ1aDlhelNXVjBSSF9feGdoenEySEpNYmZWTGV3?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:daad.de \"artificial intelligence\" research"
         },
         {
           "date": "2026-05-17",
@@ -142,38 +177,31 @@
           "search_term": "site:daad.de Nachhaltigkeit Forschung"
         },
         {
-          "date": "2026-05-16",
-          "title": "European Union: Erasmus+ Mobility Project for Higher Education Teachers and Staff - DAAD - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQYXAxdll2ZWVoWThpRTFwUVEtc1BlVlB3NmRMNkR6eHduWG9kd3AzNzlsdWtFNE1nU3Nqd1ZFcGdUSTEwX2ZYNmR1R3F2M1d0dkwzR1dINXA1WlhVbUdQM0l6M1BrcWZvMEtRTl83eF9QeC1QNHlKRng0OXlMZXhhMHl0UmZKcFJ0QUNEX1ZQSklvVVE3eE5abFl6RW5SOEdESWhDcE4tXzRnOEVtTDg2eXJrcEpJRXNFbkdrWVIwNmZjRXREUVAzbXhuTWJjQXVNRVE1TWF2Yld2emI4ZFhkTUtjVGkxYlhYcmRXb3lISjFCWTdP?oc=5",
+          "date": "2026-05-17",
+          "title": "DAAD Zuse School of Embedded Composite Artificial Intelligence (SECAI): Scholarships for Master's students in AI - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQa0Uxb25tYmVIZE95UURjQmFSWEhSSWxQdUJaVWloeThpN1o4OUk0RGVuS19zdkxvZ09TTUotMVBhcHZhY1JZbzkzbm5BQ05RZXJveVZHU25HREdFUVFOYVV6c250M24xcG1SZllKSTNBWUZkc3pHOHNON1EzRjZHMGpPQjc4SUgyTmN1VHVKZm8xYnVUNTNhSnpZbXNnRnpQQ1l1Q1gzcFhUUmdJMlR3ekJubFBiQ1lTTUxDTEZLZXoyVExtblNaNHRxTG96dWJyRkpNLWQwMktRdzFzbFpmaUotQ3JfV2xHaVlKNWRnMjMyZw?oc=5",
           "lang": "EN-DE",
-          "search_term": "site:daad.de \"maritime\" OR \"shipping\" OR \"port\""
+          "search_term": "site:daad.de \"artificial intelligence\" research"
         },
         {
-          "date": "2026-05-16",
-          "title": "DAAD Zuse School of Embedded Composite Artificial Intelligence (SECAI): Scholarships for Master's students in AI - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdmdhWjNFRkdTYVhabVZoVkVEbTV3dFJpNTJtZ29YSnpuWThSRE03RGliU2d4SjZvc2d2WGltbHdtMC1PMmdfR0syUnllZGlQdmZfTTNmTENUajlhX3lYczhYWFpNOUpLd3NKaUxMUGZoS0RqNTZxbncyQy1HQnBjX1NCalUtRFd4aHE0UFQyRnlST0RxQ1c1UzlDNHYxVEtJOERxdkQ1VkpRTGItWEdiUV95Snh5eWhTZjVFUlU4WGtNRklhT1llZE5zUjVMOGl3V0plbEtsQmJ1dVFVUXZWRjF3bXlxS244UmtWc2V3X2t2QQ?oc=5",
+          "date": "2026-05-17",
+          "title": "DAAD Konrad Zuse School of Excellence in Reliable Artificial Intelligence (relAI): Scholarship for Master's Students - - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa0NLb2hUS2pxWmpFY1pCT1h3Y1lCbHlWUWdPUk01Q2VGM0ZzRjRVZWpEajNTenFxX25FWk9hWmhhOGRJU1A5ankyYzFYSjdBVmtzeEdkZlBDRU1DajEzV254NEJITE9fcGpDQnFkZnZqTGpRdmlIMUZ5TUZqbE9rWFRxbUl2XzNZV0NmMlB0U3U2SS10T2piR05mS2h2ZmM0cHdTbWNlSW1tZUFha0JzeTJWOFBPbVhWdlUyTERGN2F2ejdLeVpxaldrdmFwVmhKT1dWbFdlRFltWUIyVDFVTTQ2cTQ5ODJxLUpsM3I0ZmRFdDQ?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
         },
         {
           "date": "2026-05-16",
-          "title": "DAAD Konrad Zuse School of Excellence in Reliable Artificial Intelligence (relAI): Scholarship for Master's Students - - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOS1VoZmI1MkpLMmNOM3YzX21XejFYUGtiMmdOdXBOd2ZsSGg5M3daZ1ppdURHckdPV2tPVFp2Y1NWZXVRSjlpMEZiWVBOSU1LVk44eUxnQWdPSXRBZE43bmR1d3h1bzltZS1PUl9PQmdpZGxlUWg4Y2xfYnEtM2RwVWZZbG1fYVp2SkJuODBXV2NqQlZFNG96SWFZdzRuMnB3b1hWMmh6NzJqMmRCZVdmUGlfcmVFd3hWUm9HdTdmSWx1QTFYTUZELVEza19RRUxvOWxpM3hIWG5Kb1dCRjRhbEUtY2lRTlZRQ3N3S21YMTBQR3c?oc=5",
+          "title": "Federal Ministry of Education and Research: Digital GreenTalents Award - www.daad.de",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOY3laS1lFRXNaVGZkOXQ5eEdSQTEwaS1SMGdPX3BOalF6RllxaXN2ZEk1ZGVBMWpMdzZLOXJmZHhWQW53ZktwSGlNTEg0bk42eEctWWFWRTZFUFMteDdXUnFpWkFFeE9sS3FSQ3lybjl4aEh3NGVYQm5lQmM4S0ZQdkxWYmRvdTg0YkdIbDBENDc0enJycFBXSFZjX0Y3OTJSbGdVOUdNNHR3MTh4Q19IYnl0TUxyLWVHR3ZjR3FUMTdBUGVKdUpiaVg4WmE1bzhTT1RPYnJCUHZDNmdsbUN1eVFtQnVqa3NpSHZqWEdZeEJMOXM?oc=5",
           "lang": "EN-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
         },
         {
           "date": "2026-05-16",
           "title": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany) - DAAD - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQR3RicV9oN21Ld1ZVbG9EcklZc2tJU3ZBcFEta2lxM0dyY3JfVG9TR0dCSzJ2eDJ3UXZTZlc1QUZxaVlUNG9ydXNfa1BxVUR2Sm9OZm83MWtkeDBvd3o5U2dyWjkwX0dIU0ZaR1pvYlpqQmp3TGk0ekhJbmRqREw0ZHE4ZFh3bzRMNGctRzdiOXdsZk56WUtzcEFmel9DZVFJbmItbHlNSlE5b0xPWms3N3VMdWFyYWFNekRyQkgyTVJNandhcDRpR2wwLTlTaTl3R0phQTF3RExtaVNIenN2cmUtSGtSbHBpcGpKU0R1RTY?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTHlyWFBsTnFGVGFGa3c5M0VNSklaQ0tWaExYeG0yZ2xLRnJFeDcweGhSVTRVcjRzell5R1MxTER1T25oT08wcVNmblNIUjZqOWNQcW9rRUpBLVFuV3dPLUl6TDVmeFIydEpWMUlBNVAtXy10eUNDZWRjQzF2TTVBUzUtc3J0TFNhU0YxdTcxcUhZZkQxdVhLRHZPckpod1gxS3VUN2d6Z3FQbWt5ZjdLZVo1MWdFRmJBOUYtdHdhWUhDRjlsMUdkRHJybVluOEtZZlpvb29lSmtTT0h0N2xHQlhxT2lrM2I1OUlsM2RSX1A?oc=5",
           "lang": "EN-DE",
-          "search_term": "site:daad.de \"artificial intelligence\" research"
-        },
-        {
-          "date": "2026-05-15",
-          "title": "Study \"Business Law (training-, practice- and career-integrated)\" (Master) in Germany - Westfälische Hochschule, University of Applied Sciences Gelsenkirchen, Bocholt, Recklinghausen - www.daad.de",
-          "link": "https://news.google.com/rss/articles/CBMiowNBVV95cUxPZHNzc09MQXNWenFMZWhjZUJUX2s3NWVtcU1ULTJ6NFJCOXF2YXB1NHgxR1NiSWRkLUhUR0RxTFU3ZnluTVo3QTR3Z2YyWnZzbXYtbDhacE1rTFhzTG5ISXJMNUpkYzh2UTBJdHZXZ28xYzRyU3ppTy03eW0zUDc3VEhaM1BIRUlWV29SZGM0TDgxRjFsem00dHR5cU93X2ZvNzAzNVdIZEd2THhRRm1uODc3Z3k1aGc1M2o3eXFZQjZkSDhLbWFKY1JMZW0wXzZMTlZXSEFQcml0cnY1Q0NRdXZhYmFrXy1qcjRPY21LbDBFNkR4aVUtVjVDb0ZRRzZBbkhrd2E1NlJ0aXp0YjhJcEt6YTNYTXhOeV9oc2l4YTJXT1U1ZThzVXFFZzJOd1NlazNHOXBOekFXY0I0U2g2UGUxV2RrdkFUazRLRGxkMXU2WEdmS2t0Q0VCVlZtWmtPdGVaLVkyc2ExVll6dUxvQURheUt5UkRKbTF2OElQU1VKVTl3czdQc2d5QXFmeXBwc21qcmVzYW0wOWVhYzE3ZGtwMA?oc=5",
-          "lang": "DE-DE",
           "search_term": "site:daad.de \"artificial intelligence\" research"
         }
       ]
@@ -181,12 +209,19 @@
     "DFG": {
       "icon": "🇩🇪",
       "label": "DFG (Alemanha)",
-      "total": 2,
+      "total": 3,
       "items": [
         {
           "date": "2026-05-19",
           "title": "Research Careers - DFG - Deutsche Forschungsgemeinschaft",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWk1rQmFzdWczWGhwTWNzR0c4cDNWZU5sUWlGTmwxaGluVk9TbjZ6amhSb3JVX1Rua3p0Y25tMW82N25nbjQ5ZnN6WDhSdE5DYUhhaUdmRDF6aTgzX0NUMDBYcXVTR3BxdXk1bE9NODlybDlqZnBlN1FINW9MRTl1S3pYdDBFY0ND?oc=5",
+          "lang": "DE-DE",
+          "search_term": "site:dfg.de \"sustainability\" research project"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "Life Sciences 3: Medicine - DFG - Deutsche Forschungsgemeinschaft",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUdwRzRkX0c2R1ZPRXN4RnZlLVlPckgzTktUN1NKYTNiRU5zQ1NlYzRjSGZYaFIwU2lGOXJWUFVRZGVPUWoxUjI5QzRwOWdLQlp2NFlldF9wVjcyQmNPbWplUWw3LUFOaVNjRW1SZmhZbm80YnRKWWNveHVXYjZ3Rmplbk10WUpaVkdPQmp1SHNtN2c?oc=5",
           "lang": "DE-DE",
           "search_term": "site:dfg.de \"sustainability\" research project"
         },
@@ -214,7 +249,7 @@
     "ThinkTanks": {
       "icon": "🏛️",
       "label": "Think Tanks & Organizacoes",
-      "total": 6,
+      "total": 5,
       "items": [
         {
           "date": "2026-05-18",
@@ -245,13 +280,6 @@
           "search_term": "site:fraunhofer.de \"maritime\" OR \"shipping\" sustainability"
         },
         {
-          "date": "2026-05-12",
-          "title": "Green hydrogen: between vision and reality - Blog | Fraunhofer-Institut für Windenergiesysteme - Fraunhofer-Gesellschaft",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlBaU0FnZzd1RG5aVzN3RC1yQnE3aHFGdjZyU0p2RWNCUm40bHZzSEItTFJNVkFWWHNxX0FTTVU3SnlVdWcwaG9DdEpNTDROQjU5aHd2WlY0ZWpDV0UzN2NGdmphSTlxMVh2WHJYaFZqMG5FZC0ySTJKM1BmLXRicmpybGx6eXZHSzc5OVFRbXU3MGFwRlItemdwdTdCTG8?oc=5",
-          "lang": "EN-DE",
-          "search_term": "site:fraunhofer.de \"decarbonisation\" OR \"decarbonization\""
-        },
-        {
           "date": "2026-05-11",
           "title": "Understanding Multi-System Interlinkages Between Energy and Mobility Systems and Their Governance in the UK - Fraunhofer-Publica",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUXN2OFN1ZkdFQjg2eTF5OXVsOGdSb241Y0FHVlFmRUF5Z0lBMlBlRk1OUDRrNExiMFExQllyQVowZjdlR2RtN1BNd2VabmtqdFV3ZUo4MFNLczZfdzU1UEJsS2VfeC05VWJhOWtLQ1k5OGtDMlFhZjBEaEhLZUlaNDhGY0VUSmJIMEh3UTBlbw?oc=5",
@@ -263,14 +291,29 @@
     "Maritime_AI": {
       "icon": "🚢",
       "label": "Maritime AI & Decarbonizacao",
-      "total": 0,
-      "items": []
+      "total": 1,
+      "items": [
+        {
+          "date": "2026-05-23",
+          "title": "Blue Economy Prospects in Bangladesh: Addressing SDG-14 (Life Below Water) - springerprofessional.de",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa1dYRXNUdFBiMHRoWk5PbjhqeDRqR2p1N3d2ejlCVnEzMWxIR3gtXzJUcWpFcWJtNlBjcnA1REFDV05TMDlVeGJxbnZSZlVsbzBnVVJYUlBjUHpWcnZvQW1qSjdnTEQtcFp1WGZKNnVjM3Q0d01NTDltdGNvSDdwU09mRXdiLV9CalVndkdmUk94WWZnb2dpeWZGYkRKUGsxcWttOXVXQWFWajZYTkE?oc=5",
+          "lang": "DE-DE",
+          "search_term": "Deutschland \"SDG 14\" OR \"life below water\" Forschung"
+        }
+      ]
     },
     "Geral_DE": {
       "icon": "🔍",
       "label": "Geral Alemanha",
-      "total": 2,
+      "total": 3,
       "items": [
+        {
+          "date": "2026-05-22",
+          "title": "Tech Disruption, Manufacturing, and Inclusive Growth Dominate UNILAG-STEG Mini-Conference - University Of Lagos",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZlRka0tqRmZpdDE4V3lzdFhDVDhuZm1JTVc4OUl2Y0dvQk44SHFfZFlOQmViREFvOXRuV0lPQTVQVGNPX3pLaVRaNTVmdmRvT2lERVBoaWVyOTFXUzF1WWxCTWoydWppeXowR0s5dUktNGcyM3phdkZncGtwbURVQWVpZVRxX1d2VXowdk1JOUtTWk54R1hCdlVQZ2VWMmxRVG5GTkNLenh1WDJxQUhr?oc=5",
+          "lang": "EN-DE",
+          "search_term": "Germany \"sustainable development\" postdoctoral fellowship"
+        },
         {
           "date": "2026-05-19",
           "title": "Call for Nominations: Digital GreenTalents Award - fundsforNGOs",
@@ -290,7 +333,7 @@
     "BR_Coop": {
       "icon": "🇧🇷",
       "label": "Cooperacao Brasil-Alemanha",
-      "total": 5,
+      "total": 4,
       "items": [
         {
           "date": "2026-05-22",
@@ -312,13 +355,6 @@
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVjlrNDdxWHVJcXFKNGdYOW1jVklYa1VLWE9xQU1tYW9hUEdlSHZKdHFkUGN4Wl9JNWdsTFNMRzdwaU5mRmxEZl93WXhTQ1ZDbVlyWldiNkxUSTNRVjBWTC1UTDE0WkZDMVFDWDRvc2lJQVlUMDNVQU5XVjdBNEczTUh1ZW85RHFYR1lPMVZSZUpDX0MyMzNnUVljSlpUSFpwci1LWlNZb2ZXUHB3U1o0Y1d1Wnl0MHZ6bk12Rzgwb1JjVTg3bWZRakF2MEpNNHR4eUJhcm9UVlVBY1pjYk5HXzhpdEE4UdIB6wFBVV95cUxPdC1Md2Y4cXFmZktJdVc5aVV6VDF3cm5jTnFmdDdUdTc0VzVHRUJOQk1mRHQzaEdPQ0xMUFJldkhGNklVSFJXem5XNUxSRVJadDJYQW1ZOC1WeFZEV2FhODJBVFhKb3Q2elhOeEtHX1loaGJPb3p6X1BYa3o1bXd4LWUyQ1hxM0d0aWRUOGRndm94Sk1vNVU1NzE0emZsVzJUSlNkaFJWUUE3VXpUaDY0WFhwc0s1VUc5dXByTUt5SkQ2RlVYSk1IWGk0V3lfLTVVQ3htN19uNGk3OWlhX1poZHByejlyUW9GcHUw?oc=5",
           "lang": "PT-BR",
           "search_term": "Brasil Alemanha cooperacao cientifica edital"
-        },
-        {
-          "date": "2026-05-12",
-          "title": "Pesquisadora Maria Teresa Piedade é homenageada com Prêmio Almirante Álvaro Alberto - Defesa em Foco",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQnN4WUFZNWhrSXV3by1saDhXWllYSTVMc2NCSXpwei1XNXdPam5UYnpQdzdIal84Y0RLNGFZcTVxeDl1aEVucVUtYW9DdWo5TUZQcE5jVnliTE1XeW5oM1VIOTB3WVhMTWRpSTc5LW5wVlRPcGdXSkVmTEFkS29yUExGQ1dtbHZaMlZCREVPOEVkU0NSSlpsckZuSllkSVJpQXJmd3dfaTRVbGN4cGRSazZ5Qk4tS0k?oc=5",
-          "lang": "PT-BR",
-          "search_term": "Brasil Alemanha \"mudancas climaticas\" cooperacao cientifica"
         },
         {
           "date": "2026-05-12",
